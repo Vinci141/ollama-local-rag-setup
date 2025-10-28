@@ -77,6 +77,26 @@ python 02_Ollama_setup.py --query "Summarize project goals"
     ├── index/                   # Stored FAISS vector database
     └── README.md
 
+
+    Content of requirement.txt
+
+    # Core Ollama client
+    ollama>=0.1.0
+    
+    # Vector database and numeric operations
+    faiss-cpu>=1.7.4
+    numpy>=1.24.0
+
+    # PDF processing
+    pypdf>=3.17.0
+
+    # Note: These are already included in Python standard library
+    # - os
+    # - glob
+    # - json
+    # - typing
+    # - argparse
+
 🧩 Architecture
 
     User Query
