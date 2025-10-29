@@ -65,7 +65,7 @@ python Ollama_setup.py --index --folder "C:\path\to\your\docs"
     Builds a FAISS vector index for fast retrieval
 7️⃣ Ask Questions About Your Files
 
-python 02_Ollama_setup.py --query "Summarize project goals"
+python Ollama_setup.py --query "Summarize project goals"
 
 📂 Project Structure
 
@@ -112,7 +112,7 @@ python 02_Ollama_setup.py --query "Summarize project goals"
 
 💡 Example Output
 
-    > python 02_Ollama_setup.py --query "What is this document about?"
+    > python Ollama_setup.py --query "What is this document about?"
 
 Answer:
 This document describes the internal architecture and deployment setup
