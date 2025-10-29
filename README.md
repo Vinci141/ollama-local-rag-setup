@@ -31,7 +31,7 @@ It reads and indexes your local files, creates embeddings, and enables **semanti
   > ```
 - Python ≥ 3.9
 - `git`, `pip`, and a code editor (PyCharm, VS Code, etc.)
-- 
+  
 
 ---
 
