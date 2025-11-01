@@ -43,17 +43,67 @@
 └─────────────────────────────────────────────────────┘
 
 
-Why Both?FAISS is optimized for:
+Why Both?
+
+  FAISS is optimized for:
 
 ✅ Extremely fast vector search (millions of searches/sec)
 ✅ Low memory footprint for vectors
 ✅ Similarity calculations (cosine, L2 distance)
 ❌ Cannot store text or metadata efficiently
 ❌ Only understands numbers
-JSON is perfect for:
+
+  JSON is perfect for:
 
 ✅ Storing text, filenames, line numbers
 ✅ Human-readable debugging
 ✅ Flexible metadata (can add new fields anytime)
 ❌ Slow for similarity search
 ❌ No vector operations
+
+
+# When searching:
+query = "What is Python?"
+
+# Step 1: FAISS finds WHICH chunks are similar
+query_vector = [0.2, 0.8, ...]
+indices = faiss_index.search(query_vector, k=8)
+# Result: [42, 156, 789, 1001, ...] ← Just numbers!
+
+# Step 2: JSON provides the ACTUAL TEXT for those chunks
+for idx in indices:
+    chunk_text = metadata[idx]["text"]  ← Get text from JSON
+    source_file = metadata[idx]["path"]  ← Get filename from JSON
+    print(f"{source_file}: {chunk_text}")
+
+  Use only FAISS?
+# Problem: FAISS can't store strings efficiently
+faiss_index.add(vector, metadata={"text": "..."})  # ❌ FAISS doesn't support this!
+
+# You'd need to:
+# 1. Store text in FAISS vectors somehow (wasteful, slow)
+# 2. Or keep text in memory (uses tons of RAM)
+
+
+  Use only JSON ?
+
+# Problem: Searching would be VERY slow
+for chunk in metadata:  # Loop through ALL chunks (thousands!)
+    similarity = cosine_similarity(query_vec, chunk["embedding"])
+    # This would take SECONDS instead of milliseconds
+```
+
+**Real-world comparison:**
+```
+FAISS Search:    0.02 seconds for 1 million vectors ✓
+Pure JSON Loop:  45.0 seconds for 1 million vectors ✗
+
+Speed difference: 2,250x slower!
+```
+
+### **Design Pattern: Separation of Concerns**
+```
+FAISS:    "WHERE are the relevant chunks?" (fast indexing)
+JSON:     "WHAT is the content?" (rich metadata)
+
+Together: Best of both worlds! ✓
