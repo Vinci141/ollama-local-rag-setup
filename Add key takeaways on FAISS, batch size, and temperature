@@ -1,0 +1,30 @@
+🎯 Key Takeaways
+
+Question 1: FAISS + JSON
+
+FAISS = Fast vector search (numbers only)
+JSON = Flexible metadata (text, paths)
+Together = Best performance + flexibility
+
+Question 2: Batch Size
+
+Batch 16 = Safe, good for laptops
+Batch 64 = 3x faster, needs 8GB+ RAM
+Trade-off: Speed vs memory safety
+
+Question 3: Temperature
+
+Temp 0.2 = Factual, grounded in sources (RAG)
+Temp 0.8 = Creative, but hallucinates
+RAG needs consistency, not creativity
+
+Question 4: 10GB Logs
+
+Current approach: Works but slow (27 hours)
+Optimizations needed:
+
+Parallel processing (8x faster)
+Smart sampling (10x smaller index)
+Hierarchical indexing (20x faster search)
+Incremental checkpoints (resume capability)
+Intelligent filtering (focus on errors)
