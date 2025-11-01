@@ -1,0 +1,43 @@
+┌─────────────────────────────────────────────────────┐
+│                  FAISS INDEX FILE                   │
+│              (faiss_index.bin - 4.8 MB)             │
+├─────────────────────────────────────────────────────┤
+│                                                     │
+│  Stores: ONLY THE VECTORS (numbers)                 │
+│                                                     │
+│  Chunk 0: [0.234, -0.567, 0.891, ... 768 dims]      │
+│  Chunk 1: [0.123, -0.456, 0.789, ... 768 dims]      │
+│  Chunk 2: [0.345, -0.678, 0.912, ... 768 dims]      │
+│  ...                                                │
+│  Chunk 1246: [0.456, -0.789, 0.123, ... 768 dims]   │
+│                                                     │
+│  Purpose: ULTRA-FAST similarity search              │
+│  Function: "Which chunks are closest to query?"     │
+│                                                     │
+└─────────────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────────────┐
+│                  JSON METADATA FILE                 │
+│              (metadata.json - 2.1 MB)               │
+├─────────────────────────────────────────────────────┤
+│                                                     │
+│  Stores: HUMAN-READABLE INFORMATION                 │
+│                                                     │
+│  [                                                  │
+│    {                                                │
+│      "path": "machine_learning.txt",                │
+│      "chunk_index": 0,                              │
+│      "text": "Machine learning is...",              │
+│      "file_type": "txt",                            │
+│      "log_levels": [],                              │
+│      "start_line": null,                            │
+│      "end_line": null                               │
+│    },                                               │
+│    { chunk 1... },                                  │
+│    { chunk 2... }                                   │
+│  ]                                                  │
+│                                                     │
+│  Purpose: Store the actual text and metadata        │
+│  Function: "What is the text of chunk #42?"         │
+│                                                     │
+└─────────────────────────────────────────────────────┘
