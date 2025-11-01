@@ -1,0 +1,34 @@
+def chunk_log_file(filepath: str, lines_per_chunk=50):
+    with open(filepath, 'r', encoding='utf-8', errors='ignore') as f:
+        for line in f:  # ← Streams line-by-line (good!)
+            # Process line
+            # Build chunks incrementally
+```
+
+**Memory usage:**
+```
+┌────────────────────────────────────────────┐
+│      CURRENT: 50 MB LOG FILE               │
+├────────────────────────────────────────────┤
+│ Reads: Line by line (streaming) ✓          |
+│ Holds in RAM: Current chunk (~50 lines)    │
+│ Memory: ~5 KB at a time                    │
+│ Result: Works perfectly ✓                  |
+└────────────────────────────────────────────┘
+
+┌────────────────────────────────────────────┐
+│      10 GB LOG FILE SCENARIO               │
+├────────────────────────────────────────────┤
+│ Problem 1: Processing Time                 │
+│ - 10 GB = ~100 million lines               │
+│ - At 1000 lines/sec = 27 hours! ✗          │
+│                                            │
+│ Problem 2: Embedding Bottleneck            │
+│ - 100M lines / 50 = 2M chunks              │
+│ - At 10 chunks/sec = 55 hours! ✗           │
+│                                            │
+│ Problem 3: Index Size                      │
+│ - 2M chunks × 768 dims × 4 bytes           │
+│ - = 6 GB FAISS index                       │
+│ - May not fit in RAM! ⚠️                   │
+└────────────────────────────────────────────┘
