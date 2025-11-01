@@ -1,0 +1,84 @@
+# Adaptive batch size based on available memory
+import psutil
+
+available_ram_gb = psutil.virtual_memory().available / (1024**3)
+
+if available_ram_gb < 4:
+    BATCH_SIZE = 8   # Conservative
+elif available_ram_gb < 8:
+    BATCH_SIZE = 16  # Current (safe)
+elif available_ram_gb < 16:
+    BATCH_SIZE = 64  # Fast
+else:
+    BATCH_SIZE = 128 # Maximum speed
+```
+
+---
+
+## ❓ **Question 3: Temperature 0.2 vs 0.8 for RAG**
+
+### **What Temperature Does:**
+
+Temperature controls **randomness** in token selection:
+```
+Next token prediction for: "Python is a..."
+
+At temperature = 0.2 (LOW):
+┌─────────────────────────────────────┐
+│ Token Probabilities (focused):      │
+├─────────────────────────────────────┤
+│ "programming" : 85% ████████████████│ ← Picks this!
+│ "language"    : 10% ██              │
+│ "powerful"    :  3% █               │
+│ "great"       :  2% █               │
+└─────────────────────────────────────┘
+Result: Consistent, predictable
+
+At temperature = 0.8 (HIGH):
+┌─────────────────────────────────────┐
+│ Token Probabilities (diverse):      │
+├─────────────────────────────────────┤
+│ "programming" : 35% ███████         │ ← Could pick any!
+│ "language"    : 30% ██████          │
+│ "powerful"    : 20% ████            │
+│ "great"       : 15% ███             │
+└─────────────────────────────────────┘
+Result: Creative, varied
+```
+
+### **Example Query: "What is machine learning?"**
+
+**With Temperature = 0.2 (RAG-appropriate):**
+```
+Query: "What is machine learning?"
+Context: [Retrieved document about ML from your index]
+
+Response:
+"Based on the provided documents, machine learning is a subset of 
+artificial intelligence that enables systems to learn from data 
+without explicit programming. The document mentions three main types:
+supervised learning, unsupervised learning, and reinforcement learning.
+
+Source: machine_learning.txt, chunk 3"
+```
+
+**Characteristics:**
+- ✅ Sticks closely to the context
+- ✅ Factual, grounded in sources
+- ✅ Consistent across repeated queries
+- ✅ Less likely to hallucinate
+- ✓ Perfect for RAG!
+
+**With Temperature = 0.8 (Too creative):**
+```
+Query: "What is machine learning?"
+Context: [Same retrieved document]
+
+Response:
+"Machine learning is like teaching a child to recognize patterns!
+It's a fascinating field where computers become smarter over time,
+almost like they're developing their own intuition. Imagine if your
+toaster could learn your preferred browning level - that's ML in action!
+
+There are countless approaches, from neural networks to decision trees,
+each with their own philosophical implications about intelligence..."
