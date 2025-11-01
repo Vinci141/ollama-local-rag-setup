@@ -41,3 +41,19 @@
 │  Function: "What is the text of chunk #42?"         │
 │                                                     │
 └─────────────────────────────────────────────────────┘
+
+
+Why Both?FAISS is optimized for:
+
+✅ Extremely fast vector search (millions of searches/sec)
+✅ Low memory footprint for vectors
+✅ Similarity calculations (cosine, L2 distance)
+❌ Cannot store text or metadata efficiently
+❌ Only understands numbers
+JSON is perfect for:
+
+✅ Storing text, filenames, line numbers
+✅ Human-readable debugging
+✅ Flexible metadata (can add new fields anytime)
+❌ Slow for similarity search
+❌ No vector operations
