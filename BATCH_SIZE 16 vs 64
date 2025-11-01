@@ -1,0 +1,100 @@
+# Process 16 chunks at once
+for i in range(0, len(chunks), BATCH_SIZE):  # BATCH_SIZE = 16
+    batch_chunks = chunks[i:i + 16]
+    
+    with ThreadPool(8) as pool:
+        embeddings = pool.starmap(embedding_worker, 
+                                  [(model, chunk) for chunk in batch_chunks])
+```
+
+**What happens in memory:**
+```
+┌─────────────────────────────────────────────┐
+│         RAM DURING BATCH PROCESSING         │
+├─────────────────────────────────────────────┤
+│                                             │
+│  Batch 16 chunks:                           │
+│  ├─ Chunk 1: 500 chars × 16 = 8 KB          │
+│  ├─ Embedding 1: 768 floats × 4 bytes       │
+│  │   = 3 KB per embedding × 16 = 48 KB      │
+│  └─ Thread overhead: ~2 MB                  │
+│                                             │
+│  Total per batch: ~2.1 MB                   │
+│                                             │
+│  For 1000 chunks:                           │
+│  - 1000 / 16 = 63 batches                   │
+│  - Peak memory: ~2.1 MB (only 1 batch)      │
+│                                             │
+└─────────────────────────────────────────────┘
+```
+
+### **If BATCH_SIZE = 64**
+```
+┌─────────────────────────────────────────────┐
+│         RAM DURING BATCH PROCESSING         │
+├─────────────────────────────────────────────┤
+│                                             │
+│  Batch 64 chunks:                           │
+│  ├─ Chunk data: 500 × 64 = 32 KB            │
+│  ├─ Embeddings: 3 KB × 64 = 192 KB          │
+│  └─ Thread overhead: ~8 MB                  │
+│                                             │
+│  Total per batch: ~8.2 MB                   │
+│                                             │
+│  For 1000 chunks:                           │
+│  - 1000 / 64 = 16 batches (fewer!)          │
+│  - Peak memory: ~8.2 MB                     │
+│                                             │
+└─────────────────────────────────────────────┘
+```
+
+### **Speed Impact:**
+
+**Batch Size 16:**
+```
+Total chunks: 1000
+Batches: 1000 / 16 = 63 batches
+Time per batch: 0.5 seconds (parallel processing)
+Total time: 63 × 0.5 = 31.5 seconds
+```
+
+**Batch Size 64:**
+```
+Total chunks: 1000
+Batches: 1000 / 64 = 16 batches (4x fewer!)
+Time per batch: 0.6 seconds (slightly slower per batch)
+Total time: 16 × 0.6 = 9.6 seconds ← 3.3x FASTER!
+```
+
+**Why faster?**
+- Fewer batch overhead costs (starting threads, etc.)
+- Better GPU utilization (if available)
+- Fewer network calls to Ollama
+
+### **Memory Impact:**
+
+| Batch Size | Memory/Batch | Total Batches | Peak Memory | Risk |
+|------------|--------------|---------------|-------------|------|
+| 16         | 2.1 MB       | 63            | 2.1 MB      | Safe ✓ |
+| 64         | 8.2 MB       | 16            | 8.2 MB      | Safe ✓ |
+| 256        | 32 MB        | 4             | 32 MB       | Risky ⚠️ |
+| 1024       | 128 MB       | 1             | 128 MB      | OOM Risk ❌ |
+
+### **Real-World Trade-offs:**
+```
+BATCH_SIZE = 16:
+✓ Safe for 4GB RAM laptops
+✓ Stable, predictable
+✗ Slower (but acceptable)
+
+BATCH_SIZE = 64:
+✓ 3-4x faster
+✓ Still safe for 8GB+ RAM
+✓ Better GPU utilization
+⚠️ Might fail on very low-memory systems
+
+BATCH_SIZE = 256+:
+✓ Maximum speed
+✗ Requires 16GB+ RAM
+✗ Risk of out-of-memory crashes
+✗ Overkill for most cases
