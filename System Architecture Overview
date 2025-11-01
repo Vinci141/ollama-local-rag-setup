@@ -1,0 +1,38 @@
+System Architecture Overview
+
+
+┌─────────────────────────────────────────────────────────┐
+│ YOUR RAG SYSTEM                                         │
+├─────────────────────────────────────────────────────────┤
+│                                                         │
+│ 1. Document Processing Layer                            │
+│ ├─ PDF/Text/Log File Readers                            │
+│ ├─ Smart Chunking (with overlap)                        │
+│ └─ Token Counting (context management)                  │
+│                                                         │
+│ 2. Embedding Layer                                      │
+│ ├─ Ollama Integration (mxbai-embed-large)               │
+│ ├─ Parallel Processing (ThreadPool)                     │
+│ └─ Batch Processing (16 chunks at a time)               │
+│                                                         │
+│ 3. Vector Storage Layer                                 │
+│ ├─ FAISS Index (Facebook's vector search)               │
+│ ├─ Metadata Storage (JSON)                              │
+│ └─ L2 Distance Metric                                   │
+│                                                         │
+│ 4. Retrieval Layer                                      │
+│ ├─ Semantic Search (k-nearest neighbors)                │
+│ ├─ Log Level Filtering (optional)                       │
+│ └─ Context Assembly                                     │
+│                                                         │
+│ 5. Generation Layer                                     │
+│ ├─ Token-Aware Prompt Building                          │
+│ ├─ Ollama LLM (gemma3)                                  │
+│ └─ Temperature Control                                  │
+│                                                         │
+│ 6. Performance Monitoring Layer                         │
+│ ├─ CPU/Memory Tracking                                  │
+│ ├─ Timing Metrics                                       │
+│ └─ JSON Logging                                         │
+│                                                         │
+└─────────────────────────────────────────────────────────┘
