@@ -82,3 +82,21 @@ toaster could learn your preferred browning level - that's ML in action!
 
 There are countless approaches, from neural networks to decision trees,
 each with their own philosophical implications about intelligence..."
+
+
+Aspect                 | Temp = 0.2             |Temp = 0.8
+Consistency            |Same answer every time  |Different each time
+Creativity             |Low (factual)           |High (elaborative)
+Hallucination risk     |Low (~5%)               |High (~30%)
+Source adherence       |Strict                  |Loose
+Best for               |QA, RAG, facts          |Stories, brainstorming
+
+
+
+
+
+
+
+
+
+
