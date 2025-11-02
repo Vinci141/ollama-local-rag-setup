@@ -1,0 +1,1204 @@
+[
+  {
+    "path": "C:\\Users\\vinilm\\PycharmProjects\\TestOllama\\test_docs\\data_scienc.txt",
+    "chunk_index": 0,
+    "text": "Introduction to Data Science\n\nData Science combines statistics, programming, and domain expertise to extract insights from data.\n\nCore Components:\n\n1. Data Collection\n   - Web scraping\n   - APIs\n   - Databases\n   - Sensors and IoT devices\n\n2. Data Cleaning\n   - Handling missing values\n   - Removing duplicates\n   - Fixing inconsistencies\n   - Data transformation\n\n3. Data Analysis\n   - Exploratory Data Analysis (EDA)\n   - Statistical testing\n   - Pattern recognition\n   - Hypothesis testing\n\n4. Da",
+    "file_type": "txt"
+  },
+  {
+    "path": "C:\\Users\\vinilm\\PycharmProjects\\TestOllama\\test_docs\\data_scienc.txt",
+    "chunk_index": 1,
+    "text": "duplicates\n   - Fixing inconsistencies\n   - Data transformation\n\n3. Data Analysis\n   - Exploratory Data Analysis (EDA)\n   - Statistical testing\n   - Pattern recognition\n   - Hypothesis testing\n\n4. Data Visualization\n   - Charts and graphs\n   - Dashboards\n   - Interactive visualizations\n   - Tools: Matplotlib, Seaborn, Plotly\n\n5. Machine Learning\n   - Building predictive models\n   - Feature engineering\n   - Model evaluation\n   - Deployment\n\nCommon Tools:\n- Python (Pandas, NumPy, Scikit-learn)\n-",
+    "file_type": "txt"
+  },
+  {
+    "path": "C:\\Users\\vinilm\\PycharmProjects\\TestOllama\\test_docs\\data_scienc.txt",
+    "chunk_index": 2,
+    "text": "Matplotlib, Seaborn, Plotly\n\n5. Machine Learning\n   - Building predictive models\n   - Feature engineering\n   - Model evaluation\n   - Deployment\n\nCommon Tools:\n- Python (Pandas, NumPy, Scikit-learn)\n- R programming language\n- SQL for databases\n- Jupyter Notebooks for development\n\nData Scientists need skills in:\n- Programming\n- Statistics and mathematics\n- Domain knowledge\n- Communication and storytelling\nEOF",
+    "file_type": "txt"
+  },
+  {
+    "path": "C:\\Users\\vinilm\\PycharmProjects\\TestOllama\\test_docs\\deep_learning_basics.txt",
+    "chunk_index": 0,
+    "text": "Deep Learning Fundamentals\n\nDeep learning is a subset of machine learning based on artificial neural networks with multiple layers.\n\nNeural Network Architecture:\n- Input Layer: Receives raw data\n- Hidden Layers: Extract features and patterns (the \"deep\" part)\n- Output Layer: Produces final predictions\n\nCommon Architectures:\n\n1. Feedforward Neural Networks (FNN)\n   - Data flows in one direction\n   - Used for: Classification, regression\n   - Simple but effective for tabular data\n\n2. Convolutional",
+    "file_type": "txt"
+  },
+  {
+    "path": "C:\\Users\\vinilm\\PycharmProjects\\TestOllama\\test_docs\\deep_learning_basics.txt",
+    "chunk_index": 1,
+    "text": "ons\n\nCommon Architectures:\n\n1. Feedforward Neural Networks (FNN)\n   - Data flows in one direction\n   - Used for: Classification, regression\n   - Simple but effective for tabular data\n\n2. Convolutional Neural Networks (CNN)\n   - Specialized for image processing\n   - Uses convolutional layers to detect features\n   - Applications: Image recognition, object detection, medical imaging\n\n3. Recurrent Neural Networks (RNN)\n   - Processes sequential data\n   - Has memory of previous inputs\n   - Applicatio",
+    "file_type": "txt"
+  },
+  {
+    "path": "C:\\Users\\vinilm\\PycharmProjects\\TestOllama\\test_docs\\deep_learning_basics.txt",
+    "chunk_index": 2,
+    "text": "t features\n   - Applications: Image recognition, object detection, medical imaging\n\n3. Recurrent Neural Networks (RNN)\n   - Processes sequential data\n   - Has memory of previous inputs\n   - Applications: NLP, time series, speech recognition\n\n4. Transformers\n   - Attention mechanism\n   - Parallel processing\n   - State-of-the-art for NLP\n   - Examples: GPT, BERT, T5\n\nTraining Process:\n- Forward propagation: Input → predictions\n- Loss calculation: Compare predictions to actual values\n- Backpropagat",
+    "file_type": "txt"
+  },
+  {
+    "path": "C:\\Users\\vinilm\\PycharmProjects\\TestOllama\\test_docs\\deep_learning_basics.txt",
+    "chunk_index": 3,
+    "text": "cessing\n   - State-of-the-art for NLP\n   - Examples: GPT, BERT, T5\n\nTraining Process:\n- Forward propagation: Input → predictions\n- Loss calculation: Compare predictions to actual values\n- Backpropagation: Calculate gradients\n- Optimizer updates weights: SGD, Adam, RMSprop\n\nCommon Challenges:\n- Overfitting: Model memorizes training data\n- Vanishing/exploding gradients\n- Computational cost\n- Requires large datasets\n\nSolutions:\n- Regularization (L1, L2, Dropout)\n- Batch normalization\n- Transfer lea",
+    "file_type": "txt"
+  },
+  {
+    "path": "C:\\Users\\vinilm\\PycharmProjects\\TestOllama\\test_docs\\deep_learning_basics.txt",
+    "chunk_index": 4,
+    "text": "itting: Model memorizes training data\n- Vanishing/exploding gradients\n- Computational cost\n- Requires large datasets\n\nSolutions:\n- Regularization (L1, L2, Dropout)\n- Batch normalization\n- Transfer learning\n- Data augmentation\nEOF",
+    "file_type": "txt"
+  },
+  {
+    "path": "C:\\Users\\vinilm\\PycharmProjects\\TestOllama\\test_docs\\logs.txt",
+    "chunk_index": 0,
+    "text": "time=2025-10-29T11:03:10.555+05:30 level=INFO source=cpu_windows.go:139 msg=packages count=1\ntime=2025-10-29T11:03:10.555+05:30 level=INFO source=cpu_windows.go:155 msg=\"efficiency cores detected\" maxEfficiencyClass=1\ntime=2025-10-29T11:03:10.555+05:30 level=INFO source=cpu_windows.go:186 msg=\"\" package=0 cores=12 efficiency=10 threads=14\ntime=2025-10-29T11:03:10.557+05:30 level=INFO source=server.go:400 msg=\"starting runner\" cmd=\"C:\\\\Users\\\\vinilm\\\\AppData\\\\Local\\\\Programs\\\\Ollama\\\\ollama.exe r",
+    "file_type": "txt"
+  },
+  {
+    "path": "C:\\Users\\vinilm\\PycharmProjects\\TestOllama\\test_docs\\logs.txt",
+    "chunk_index": 1,
+    "text": "kage=0 cores=12 efficiency=10 threads=14\ntime=2025-10-29T11:03:10.557+05:30 level=INFO source=server.go:400 msg=\"starting runner\" cmd=\"C:\\\\Users\\\\vinilm\\\\AppData\\\\Local\\\\Programs\\\\Ollama\\\\ollama.exe runner --model C:\\\\Users\\\\vinilm\\\\.ollama\\\\models\\\\blobs\\\\sha256-819c2adf5ce6df2b6bd2ae4ca90d2a69f060afeb438d0c171db57daa02e39c3d --port 3850\"\ntime=2025-10-29T11:03:11.022+05:30 level=INFO source=cpu_windows.go:139 msg=packages count=1\ntime=2025-10-29T11:03:11.022+05:30 level=INFO source=cpu_windows.",
+    "file_type": "txt"
+  },
+  {
+    "path": "C:\\Users\\vinilm\\PycharmProjects\\TestOllama\\test_docs\\logs.txt",
+    "chunk_index": 2,
+    "text": "afeb438d0c171db57daa02e39c3d --port 3850\"\ntime=2025-10-29T11:03:11.022+05:30 level=INFO source=cpu_windows.go:139 msg=packages count=1\ntime=2025-10-29T11:03:11.022+05:30 level=INFO source=cpu_windows.go:155 msg=\"efficiency cores detected\" maxEfficiencyClass=1\ntime=2025-10-29T11:03:11.022+05:30 level=INFO source=cpu_windows.go:186 msg=\"\" package=0 cores=12 efficiency=10 threads=14\ntime=2025-10-29T11:03:11.022+05:30 level=INFO source=server.go:505 msg=\"system memory\" total=\"31.5 GiB\" free=\"14.6 Gi",
+    "file_type": "txt"
+  },
+  {
+    "path": "C:\\Users\\vinilm\\PycharmProjects\\TestOllama\\test_docs\\logs.txt",
+    "chunk_index": 3,
+    "text": "=INFO source=cpu_windows.go:186 msg=\"\" package=0 cores=12 efficiency=10 threads=14\ntime=2025-10-29T11:03:11.022+05:30 level=INFO source=server.go:505 msg=\"system memory\" total=\"31.5 GiB\" free=\"14.6 GiB\" free_swap=\"12.5 GiB\"\ntime=2025-10-29T11:03:11.023+05:30 level=INFO source=memory.go:36 msg=\"new model will fit in available VRAM across minimum required GPUs, loading\" model=C:\\Users\\vinilm\\.ollama\\models\\blobs\\sha256-819c2adf5ce6df2b6bd2ae4ca90d2a69f060afeb438d0c171db57daa02e39c3d library=cpu pa",
+    "file_type": "txt"
+  },
+  {
+    "path": "C:\\Users\\vinilm\\PycharmProjects\\TestOllama\\test_docs\\logs.txt",
+    "chunk_index": 4,
+    "text": "odel will fit in available VRAM across minimum required GPUs, loading\" model=C:\\Users\\vinilm\\.ollama\\models\\blobs\\sha256-819c2adf5ce6df2b6bd2ae4ca90d2a69f060afeb438d0c171db57daa02e39c3d library=cpu parallel=1 required=\"0 B\" gpus=1\ntime=2025-10-29T11:03:11.024+05:30 level=INFO source=server.go:545 msg=offload library=cpu layers.requested=-1 layers.model=25 layers.offload=0 layers.split=[] memory.available=\"[14.7 GiB]\" memory.gpu_overhead=\"0 B\" memory.required.full=\"672.0 MiB\" memory.required.part",
+    "file_type": "txt"
+  },
+  {
+    "path": "C:\\Users\\vinilm\\PycharmProjects\\TestOllama\\test_docs\\logs.txt",
+    "chunk_index": 5,
+    "text": "g=offload library=cpu layers.requested=-1 layers.model=25 layers.offload=0 layers.split=[] memory.available=\"[14.7 GiB]\" memory.gpu_overhead=\"0 B\" memory.required.full=\"672.0 MiB\" memory.required.partial=\"0 B\" memory.required.kv=\"3.0 MiB\" memory.required.allocations=\"[672.0 MiB]\" memory.weights.total=\"636.8 MiB\" memory.weights.repeating=\"577.2 MiB\" memory.weights.nonrepeating=\"59.6 MiB\" memory.graph.full=\"8.0 MiB\" memory.graph.partial=\"8.0 MiB\"\ntime=2025-10-29T11:03:11.130+05:30 level=INFO sourc",
+    "file_type": "txt"
+  },
+  {
+    "path": "C:\\Users\\vinilm\\PycharmProjects\\TestOllama\\test_docs\\logs.txt",
+    "chunk_index": 6,
+    "text": "l=\"636.8 MiB\" memory.weights.repeating=\"577.2 MiB\" memory.weights.nonrepeating=\"59.6 MiB\" memory.graph.full=\"8.0 MiB\" memory.graph.partial=\"8.0 MiB\"\ntime=2025-10-29T11:03:11.130+05:30 level=INFO source=runner.go:893 msg=\"starting go runner\"\nload_backend: loaded CPU backend from C:\\Users\\vinilm\\AppData\\Local\\Programs\\Ollama\\lib\\ollama\\ggml-cpu-alderlake.dll\ntime=2025-10-29T11:03:11.599+05:30 level=INFO source=ggml.go:104 msg=system CPU.0.SSE3=1 CPU.0.SSSE3=1 CPU.0.AVX=1 CPU.0.AVX_VNNI=1 CPU.0.AVX",
+    "file_type": "txt"
+  },
+  {
+    "path": "C:\\Users\\vinilm\\PycharmProjects\\TestOllama\\test_docs\\logs.txt",
+    "chunk_index": 7,
+    "text": "ta\\Local\\Programs\\Ollama\\lib\\ollama\\ggml-cpu-alderlake.dll\ntime=2025-10-29T11:03:11.599+05:30 level=INFO source=ggml.go:104 msg=system CPU.0.SSE3=1 CPU.0.SSSE3=1 CPU.0.AVX=1 CPU.0.AVX_VNNI=1 CPU.0.AVX2=1 CPU.0.F16C=1 CPU.0.FMA=1 CPU.0.BMI2=1 CPU.0.LLAMAFILE=1 CPU.1.LLAMAFILE=1 compiler=cgo(clang)\ntime=2025-10-29T11:03:11.600+05:30 level=INFO source=runner.go:929 msg=\"Server listening on 127.0.0.1:3850\"\ntime=2025-10-29T11:03:11.602+05:30 level=INFO source=runner.go:828 msg=load request=\"{Operatio",
+    "file_type": "txt"
+  },
+  {
+    "path": "C:\\Users\\vinilm\\PycharmProjects\\TestOllama\\test_docs\\logs.txt",
+    "chunk_index": 8,
+    "text": "me=2025-10-29T11:03:11.600+05:30 level=INFO source=runner.go:929 msg=\"Server listening on 127.0.0.1:3850\"\ntime=2025-10-29T11:03:11.602+05:30 level=INFO source=runner.go:828 msg=load request=\"{Operation:commit LoraPath:[] Parallel:1 BatchSize:512 FlashAttention:false KvSize:512 KvCacheType: NumThreads:2 GPULayers:[] MultiUserCache:false ProjectorPath: MainGPU:0 UseMmap:false}\"\ntime=2025-10-29T11:03:11.603+05:30 level=INFO source=server.go:1272 msg=\"waiting for llama runner to start responding\"\nti",
+    "file_type": "txt"
+  },
+  {
+    "path": "C:\\Users\\vinilm\\PycharmProjects\\TestOllama\\test_docs\\logs.txt",
+    "chunk_index": 9,
+    "text": "s:2 GPULayers:[] MultiUserCache:false ProjectorPath: MainGPU:0 UseMmap:false}\"\ntime=2025-10-29T11:03:11.603+05:30 level=INFO source=server.go:1272 msg=\"waiting for llama runner to start responding\"\ntime=2025-10-29T11:03:11.605+05:30 level=INFO source=server.go:1306 msg=\"waiting for server to become available\" status=\"llm server loading model\"\nllama_model_loader: loaded meta data with 23 key-value pairs and 389 tensors from C:\\Users\\vinilm\\.ollama\\models\\blobs\\sha256-819c2adf5ce6df2b6bd2ae4ca90d2",
+    "file_type": "txt"
+  },
+  {
+    "path": "C:\\Users\\vinilm\\PycharmProjects\\TestOllama\\test_docs\\logs.txt",
+    "chunk_index": 10,
+    "text": "available\" status=\"llm server loading model\"\nllama_model_loader: loaded meta data with 23 key-value pairs and 389 tensors from C:\\Users\\vinilm\\.ollama\\models\\blobs\\sha256-819c2adf5ce6df2b6bd2ae4ca90d2a69f060afeb438d0c171db57daa02e39c3d (version GGUF V3 (latest))\nllama_model_loader: Dumping metadata keys/values. Note: KV overrides do not apply in this output.\nllama_model_loader: - kv   0:                       general.architecture str              = bert\nllama_model_loader: - kv   1:",
+    "file_type": "txt"
+  },
+  {
+    "path": "C:\\Users\\vinilm\\PycharmProjects\\TestOllama\\test_docs\\logs.txt",
+    "chunk_index": 11,
+    "text": "keys/values. Note: KV overrides do not apply in this output.\nllama_model_loader: - kv   0:                       general.architecture str              = bert\nllama_model_loader: - kv   1:                               general.name str              = mxbai-embed-large-v1\nllama_model_loader: - kv   2:                           bert.block_count u32              = 24\nllama_model_loader: - kv   3:                        bert.context_length u32              = 512\nllama_model_loader: - kv   4:",
+    "file_type": "txt"
+  },
+  {
+    "path": "C:\\Users\\vinilm\\PycharmProjects\\TestOllama\\test_docs\\logs.txt",
+    "chunk_index": 12,
+    "text": "bert.block_count u32              = 24\nllama_model_loader: - kv   3:                        bert.context_length u32              = 512\nllama_model_loader: - kv   4:                      bert.embedding_length u32              = 1024\nllama_model_loader: - kv   5:                   bert.feed_forward_length u32              = 4096\nllama_model_loader: - kv   6:                  bert.attention.head_count u32              = 16\nllama_model_loader: - kv   7:          bert.atten",
+    "file_type": "txt"
+  },
+  {
+    "path": "C:\\Users\\vinilm\\PycharmProjects\\TestOllama\\test_docs\\logs.txt",
+    "chunk_index": 13,
+    "text": "bert.feed_forward_length u32              = 4096\nllama_model_loader: - kv   6:                  bert.attention.head_count u32              = 16\nllama_model_loader: - kv   7:          bert.attention.layer_norm_epsilon f32              = 0.000000\nllama_model_loader: - kv   8:                          general.file_type u32              = 1\nllama_model_loader: - kv   9:                      bert.attention.causal bool             = false\nllama_model_loader: - kv  10:                          b",
+    "file_type": "txt"
+  },
+  {
+    "path": "C:\\Users\\vinilm\\PycharmProjects\\TestOllama\\test_docs\\logs.txt",
+    "chunk_index": 14,
+    "text": "general.file_type u32              = 1\nllama_model_loader: - kv   9:                      bert.attention.causal bool             = false\nllama_model_loader: - kv  10:                          bert.pooling_type u32              = 2\nllama_model_loader: - kv  11:            tokenizer.ggml.token_type_count u32              = 2\nllama_model_loader: - kv  12:                tokenizer.ggml.bos_token_id u32              = 101\nllama_model_loader: - kv  13:                tokenizer.ggml.eos_token_id",
+    "file_type": "txt"
+  },
+  {
+    "path": "C:\\Users\\vinilm\\PycharmProjects\\TestOllama\\test_docs\\logs.txt",
+    "chunk_index": 15,
+    "text": "type_count u32              = 2\nllama_model_loader: - kv  12:                tokenizer.ggml.bos_token_id u32              = 101\nllama_model_loader: - kv  13:                tokenizer.ggml.eos_token_id u32              = 102\nllama_model_loader: - kv  14:                       tokenizer.ggml.model str              = bert\nllama_model_loader: - kv  15:                      tokenizer.ggml.tokens arr[str,30522]   = [\"[PAD]\", \"[unused0]\", \"[unused1]\", \"...\nllama_model_loader: - kv  16:",
+    "file_type": "txt"
+  },
+  {
+    "path": "C:\\Users\\vinilm\\PycharmProjects\\TestOllama\\test_docs\\logs.txt",
+    "chunk_index": 16,
+    "text": "= bert\nllama_model_loader: - kv  15:                      tokenizer.ggml.tokens arr[str,30522]   = [\"[PAD]\", \"[unused0]\", \"[unused1]\", \"...\nllama_model_loader: - kv  16:                      tokenizer.ggml.scores arr[f32,30522]   = [-1000.000000, -1000.000000, -1000.00...\nllama_model_loader: - kv  17:                  tokenizer.ggml.token_type arr[i32,30522]   = [3, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, ...\nllama_model_loader: - kv  18:            tokenizer.ggml.unknown_token_id u32",
+    "file_type": "txt"
+  },
+  {
+    "path": "C:\\Users\\vinilm\\PycharmProjects\\TestOllama\\test_docs\\logs.txt",
+    "chunk_index": 17,
+    "text": "oader: - kv  17:                  tokenizer.ggml.token_type arr[i32,30522]   = [3, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, ...\nllama_model_loader: - kv  18:            tokenizer.ggml.unknown_token_id u32              = 100\nllama_model_loader: - kv  19:          tokenizer.ggml.seperator_token_id u32              = 102\nllama_model_loader: - kv  20:            tokenizer.ggml.padding_token_id u32              = 0\nllama_model_loader: - kv  21:                tokenizer.ggml.cls_token_id u32              = 10",
+    "file_type": "txt"
+  },
+  {
+    "path": "C:\\Users\\vinilm\\PycharmProjects\\TestOllama\\test_docs\\logs.txt",
+    "chunk_index": 18,
+    "text": "= 102\nllama_model_loader: - kv  20:            tokenizer.ggml.padding_token_id u32              = 0\nllama_model_loader: - kv  21:                tokenizer.ggml.cls_token_id u32              = 101\nllama_model_loader: - kv  22:               tokenizer.ggml.mask_token_id u32              = 103\nllama_model_loader: - type  f32:  243 tensors\nllama_model_loader: - type  f16:  146 tensors\nprint_info: file format = GGUF V3 (latest)\nprint_info: file type   = F16\nprint_info: file size   = 637.85 MiB",
+    "file_type": "txt"
+  },
+  {
+    "path": "C:\\Users\\vinilm\\PycharmProjects\\TestOllama\\test_docs\\logs.txt",
+    "chunk_index": 19,
+    "text": "ama_model_loader: - type  f32:  243 tensors\nllama_model_loader: - type  f16:  146 tensors\nprint_info: file format = GGUF V3 (latest)\nprint_info: file type   = F16\nprint_info: file size   = 637.85 MiB (16.02 BPW) \nload: special_eos_id is not in special_eog_ids - the tokenizer config may be incorrect\nload: printing all EOG tokens:\nload:   - 102 ('[SEP]')\nload: special tokens cache size = 5\nload: token to piece cache size = 0.2032 MB\nprint_info: arch             = bert\nprint_info: vocab_only",
+    "file_type": "txt"
+  },
+  {
+    "path": "C:\\Users\\vinilm\\PycharmProjects\\TestOllama\\test_docs\\logs.txt",
+    "chunk_index": 20,
+    "text": "load: printing all EOG tokens:\nload:   - 102 ('[SEP]')\nload: special tokens cache size = 5\nload: token to piece cache size = 0.2032 MB\nprint_info: arch             = bert\nprint_info: vocab_only       = 0\nprint_info: n_ctx_train      = 512\nprint_info: n_embd           = 1024\nprint_info: n_layer          = 24\nprint_info: n_head           = 16\nprint_info: n_head_kv        = 16\nprint_info: n_rot            = 64\nprint_info: n_swa            = 0\nprint_info: is_swa_any       = 0\nprint_info: n_embd_head",
+    "file_type": "txt"
+  },
+  {
+    "path": "C:\\Users\\vinilm\\PycharmProjects\\TestOllama\\test_docs\\logs.txt",
+    "chunk_index": 21,
+    "text": "= 24\nprint_info: n_head           = 16\nprint_info: n_head_kv        = 16\nprint_info: n_rot            = 64\nprint_info: n_swa            = 0\nprint_info: is_swa_any       = 0\nprint_info: n_embd_head_k    = 64\nprint_info: n_embd_head_v    = 64\nprint_info: n_gqa            = 1\nprint_info: n_embd_k_gqa     = 1024\nprint_info: n_embd_v_gqa     = 1024\nprint_info: f_norm_eps       = 1.0e-12\nprint_info: f_norm_rms_eps   = 0.0e+00\nprint_info: f_clamp_kqv      = 0.0e+00\nprint_info: f_max_alibi_bias = 0.",
+    "file_type": "txt"
+  },
+  {
+    "path": "C:\\Users\\vinilm\\PycharmProjects\\TestOllama\\test_docs\\logs.txt",
+    "chunk_index": 22,
+    "text": "qa     = 1024\nprint_info: n_embd_v_gqa     = 1024\nprint_info: f_norm_eps       = 1.0e-12\nprint_info: f_norm_rms_eps   = 0.0e+00\nprint_info: f_clamp_kqv      = 0.0e+00\nprint_info: f_max_alibi_bias = 0.0e+00\nprint_info: f_logit_scale    = 0.0e+00\nprint_info: f_attn_scale     = 0.0e+00\nprint_info: n_ff             = 4096\nprint_info: n_expert         = 0\nprint_info: n_expert_used    = 0\nprint_info: causal attn      = 0\nprint_info: pooling type     = 2\nprint_info: rope type        = 2\nprint_info: rop",
+    "file_type": "txt"
+  },
+  {
+    "path": "C:\\Users\\vinilm\\PycharmProjects\\TestOllama\\test_docs\\logs.txt",
+    "chunk_index": 23,
+    "text": "= 4096\nprint_info: n_expert         = 0\nprint_info: n_expert_used    = 0\nprint_info: causal attn      = 0\nprint_info: pooling type     = 2\nprint_info: rope type        = 2\nprint_info: rope scaling     = linear\nprint_info: freq_base_train  = 10000.0\nprint_info: freq_scale_train = 1\nprint_info: n_ctx_orig_yarn  = 512\nprint_info: rope_finetuned   = unknown\nprint_info: model type       = 335M\nprint_info: model params     = 334.09 M\nprint_info: general.name     = mxbai-embed-large-v1\npri",
+    "file_type": "txt"
+  },
+  {
+    "path": "C:\\Users\\vinilm\\PycharmProjects\\TestOllama\\test_docs\\logs.txt",
+    "chunk_index": 24,
+    "text": "_info: n_ctx_orig_yarn  = 512\nprint_info: rope_finetuned   = unknown\nprint_info: model type       = 335M\nprint_info: model params     = 334.09 M\nprint_info: general.name     = mxbai-embed-large-v1\nprint_info: vocab type       = WPM\nprint_info: n_vocab          = 30522\nprint_info: n_merges         = 0\nprint_info: BOS token        = 101 '[CLS]'\nprint_info: EOS token        = 102 '[SEP]'\nprint_info: UNK token        = 100 '[UNK]'\nprint_info: SEP token        = 102 '[SEP]'\nprint_info: PAD token",
+    "file_type": "txt"
+  },
+  {
+    "path": "C:\\Users\\vinilm\\PycharmProjects\\TestOllama\\test_docs\\logs.txt",
+    "chunk_index": 25,
+    "text": "0\nprint_info: BOS token        = 101 '[CLS]'\nprint_info: EOS token        = 102 '[SEP]'\nprint_info: UNK token        = 100 '[UNK]'\nprint_info: SEP token        = 102 '[SEP]'\nprint_info: PAD token        = 0 '[PAD]'\nprint_info: MASK token       = 103 '[MASK]'\nprint_info: LF token         = 0 '[PAD]'\nprint_info: EOG token        = 102 '[SEP]'\nprint_info: max token length = 21\nload_tensors: loading model tensors, this can take a while... (mmap = false)\nload_tensors:          CPU model buffer size =",
+    "file_type": "txt"
+  },
+  {
+    "path": "C:\\Users\\vinilm\\PycharmProjects\\TestOllama\\test_docs\\logs.txt",
+    "chunk_index": 26,
+    "text": "print_info: EOG token        = 102 '[SEP]'\nprint_info: max token length = 21\nload_tensors: loading model tensors, this can take a while... (mmap = false)\nload_tensors:          CPU model buffer size =   637.85 MiB\nllama_init_from_model: model default pooling_type is [2], but [-1] was specified\nllama_context: constructing llama_context\nllama_context: n_seq_max     = 1\nllama_context: n_ctx         = 512\nllama_context: n_ctx_per_seq = 512\nllama_context: n_batch       = 512\nllama_context: n_ubatch",
+    "file_type": "txt"
+  },
+  {
+    "path": "C:\\Users\\vinilm\\PycharmProjects\\TestOllama\\test_docs\\logs.txt",
+    "chunk_index": 27,
+    "text": "_context: constructing llama_context\nllama_context: n_seq_max     = 1\nllama_context: n_ctx         = 512\nllama_context: n_ctx_per_seq = 512\nllama_context: n_batch       = 512\nllama_context: n_ubatch      = 512\nllama_context: causal_attn   = 0\nllama_context: flash_attn    = disabled\nllama_context: kv_unified    = false\nllama_context: freq_base     = 10000.0\nllama_context: freq_scale    = 1\nllama_context:        CPU  output buffer size =     0.12 MiB\nllama_context:        CPU compute buffer size =",
+    "file_type": "txt"
+  },
+  {
+    "path": "C:\\Users\\vinilm\\PycharmProjects\\TestOllama\\test_docs\\logs.txt",
+    "chunk_index": 28,
+    "text": "_unified    = false\nllama_context: freq_base     = 10000.0\nllama_context: freq_scale    = 1\nllama_context:        CPU  output buffer size =     0.12 MiB\nllama_context:        CPU compute buffer size =    27.01 MiB\nllama_context: graph nodes  = 851\nllama_context: graph splits = 1",
+    "file_type": "txt"
+  },
+  {
+    "path": "C:\\Users\\vinilm\\PycharmProjects\\TestOllama\\test_docs\\machine_learning.txt",
+    "chunk_index": 0,
+    "text": "Machine Learning Overview\n\nMachine Learning (ML) is a subset of artificial intelligence that enables computers to learn and improve from experience without being explicitly programmed.\n\nTypes of Machine Learning:\n\n1. Supervised Learning\n   - Uses labeled training data\n   - Examples: Classification, Regression\n   - Common algorithms: Linear Regression, Decision Trees, Neural Networks\n\n2. Unsupervised Learning\n   - Finds patterns in unlabeled data\n   - Examples: Clustering, Dimensionality Reducti",
+    "file_type": "txt"
+  },
+  {
+    "path": "C:\\Users\\vinilm\\PycharmProjects\\TestOllama\\test_docs\\machine_learning.txt",
+    "chunk_index": 1,
+    "text": "Regression\n   - Common algorithms: Linear Regression, Decision Trees, Neural Networks\n\n2. Unsupervised Learning\n   - Finds patterns in unlabeled data\n   - Examples: Clustering, Dimensionality Reduction\n   - Common algorithms: K-Means, PCA, Autoencoders\n\n3. Reinforcement Learning\n   - Learns through trial and error\n   - Agent interacts with environment\n   - Examples: Game playing, Robotics\n   - Uses reward signals to improve\n\nPopular Frameworks:\n- TensorFlow (Google)\n- PyTorch (Meta)\n- Scikit-le",
+    "file_type": "txt"
+  },
+  {
+    "path": "C:\\Users\\vinilm\\PycharmProjects\\TestOllama\\test_docs\\machine_learning.txt",
+    "chunk_index": 2,
+    "text": "trial and error\n   - Agent interacts with environment\n   - Examples: Game playing, Robotics\n   - Uses reward signals to improve\n\nPopular Frameworks:\n- TensorFlow (Google)\n- PyTorch (Meta)\n- Scikit-learn (Python library)\n\nApplications:\n- Image recognition\n- Natural language processing\n- Recommendation systems\n- Autonomous vehicles\nEOF",
+    "file_type": "txt"
+  },
+  {
+    "path": "C:\\Users\\vinilm\\PycharmProjects\\TestOllama\\test_docs\\New Text Document.txt",
+    "chunk_index": 0,
+    "text": "Python Programming Language\n\nPython is a high-level, interpreted programming language known for its simplicity and readability.\n\nKey Features:\n- Easy to learn syntax\n- Dynamic typing\n- Automatic memory management\n- Extensive standard library\n- Support for multiple programming paradigms (OOP, functional, procedural)\n\nHistory:\nPython was created by Guido van Rossum and first released in 1991.\nThe language emphasizes code readability with significant use of whitespace.\n\nPopular Use Cases:\n- Web de",
+    "file_type": "txt"
+  },
+  {
+    "path": "C:\\Users\\vinilm\\PycharmProjects\\TestOllama\\test_docs\\New Text Document.txt",
+    "chunk_index": 1,
+    "text": "onal, procedural)\n\nHistory:\nPython was created by Guido van Rossum and first released in 1991.\nThe language emphasizes code readability with significant use of whitespace.\n\nPopular Use Cases:\n- Web development (Django, Flask)\n- Data science and machine learning\n- Automation and scripting\n- Scientific computing\n\nPython 3 is the current major version, with Python 2 officially deprecated in 2020.\nEOF",
+    "file_type": "txt"
+  },
+  {
+    "path": "C:\\Users\\vinilm\\PycharmProjects\\TestOllama\\test_docs\\nlp_introduction.txt",
+    "chunk_index": 0,
+    "text": "cat > documents_pdf/nlp_introduction.txt << 'EOF'\nNatural Language Processing (NLP)\n\nNLP enables computers to understand, interpret, and generate human language.\n\nKey NLP Tasks:\n\n1. Text Classification\n   - Sentiment analysis\n   - Spam detection\n   - Topic categorization\n   - Intent recognition\n\n2. Named Entity Recognition (NER)\n   - Identify persons, organizations, locations\n   - Extract dates, monetary values\n   - Used in information extraction\n\n3. Machine Translation\n   - Translate between la",
+    "file_type": "txt"
+  },
+  {
+    "path": "C:\\Users\\vinilm\\PycharmProjects\\TestOllama\\test_docs\\nlp_introduction.txt",
+    "chunk_index": 1,
+    "text": "Named Entity Recognition (NER)\n   - Identify persons, organizations, locations\n   - Extract dates, monetary values\n   - Used in information extraction\n\n3. Machine Translation\n   - Translate between languages\n   - Neural machine translation\n   - Google Translate, DeepL\n\n4. Question Answering\n   - Retrieve answers from text\n   - Reading comprehension\n   - Chatbots and virtual assistants\n\n5. Text Generation\n   - Language models like GPT\n   - Summarization\n   - Creative writing assistance\n\nNLP Pipel",
+    "file_type": "txt"
+  },
+  {
+    "path": "C:\\Users\\vinilm\\PycharmProjects\\TestOllama\\test_docs\\nlp_introduction.txt",
+    "chunk_index": 2,
+    "text": "rieve answers from text\n   - Reading comprehension\n   - Chatbots and virtual assistants\n\n5. Text Generation\n   - Language models like GPT\n   - Summarization\n   - Creative writing assistance\n\nNLP Pipeline:\n\n1. Text Preprocessing\n   - Tokenization: Split into words/subwords\n   - Lowercasing\n   - Removing stopwords\n   - Stemming/Lemmatization\n\n2. Feature Extraction\n   - Bag of Words (BoW)\n   - TF-IDF\n   - Word embeddings (Word2Vec, GloVe)\n   - Contextual embeddings (BERT, GPT)\n\n3. Model Training",
+    "file_type": "txt"
+  },
+  {
+    "path": "C:\\Users\\vinilm\\PycharmProjects\\TestOllama\\test_docs\\nlp_introduction.txt",
+    "chunk_index": 3,
+    "text": "ing stopwords\n   - Stemming/Lemmatization\n\n2. Feature Extraction\n   - Bag of Words (BoW)\n   - TF-IDF\n   - Word embeddings (Word2Vec, GloVe)\n   - Contextual embeddings (BERT, GPT)\n\n3. Model Training\n   - Traditional: Naive Bayes, SVM, CRF\n   - Modern: LSTM, Transformers\n\n4. Evaluation\n   - Accuracy, Precision, Recall, F1\n   - BLEU score (translation)\n   - ROUGE score (summarization)\n\nModern NLP Techniques:\n\nTransfer Learning:\n- Pre-train on large corpus\n- Fine-tune on specific task\n- Saves time a",
+    "file_type": "txt"
+  },
+  {
+    "path": "C:\\Users\\vinilm\\PycharmProjects\\TestOllama\\test_docs\\nlp_introduction.txt",
+    "chunk_index": 4,
+    "text": "Precision, Recall, F1\n   - BLEU score (translation)\n   - ROUGE score (summarization)\n\nModern NLP Techniques:\n\nTransfer Learning:\n- Pre-train on large corpus\n- Fine-tune on specific task\n- Saves time and data\n\nAttention Mechanism:\n- Focus on relevant parts of input\n- Key innovation in Transformers\n- Enables long-range dependencies\n\nFew-shot Learning:\n- Learn from few examples\n- GPT-3 capability\n- Prompt engineering\n\nPopular Libraries:\n- spaCy: Fast and production-ready\n- NLTK: Comprehensive toolk",
+    "file_type": "txt"
+  },
+  {
+    "path": "C:\\Users\\vinilm\\PycharmProjects\\TestOllama\\test_docs\\nlp_introduction.txt",
+    "chunk_index": 5,
+    "text": "Enables long-range dependencies\n\nFew-shot Learning:\n- Learn from few examples\n- GPT-3 capability\n- Prompt engineering\n\nPopular Libraries:\n- spaCy: Fast and production-ready\n- NLTK: Comprehensive toolkit\n- Hugging Face Transformers: State-of-the-art models\n- Gensim: Topic modeling and embeddings\nEOF",
+    "file_type": "txt"
+  },
+  {
+    "path": "C:\\Users\\vinilm\\PycharmProjects\\TestOllama\\test_docs\\python.txt",
+    "chunk_index": 0,
+    "text": "Python is a high-level programming language known for its simplicity.\nKey features include:\n- Dynamic typing\n- Automatic memory management\n- Rich standard library\n- Support for multiple programming paradigms\n\nPython was created by Guido van Rossum and first released in 1991.",
+    "file_type": "txt"
+  },
+  {
+    "path": "C:\\Users\\vinilm\\PycharmProjects\\TestOllama\\test_docs\\python_basics.txt",
+    "chunk_index": 0,
+    "text": "Python Programming Language\n\nPython is a high-level, interpreted programming language known for its simplicity and readability.\n\nKey Features:\n- Easy to learn syntax\n- Dynamic typing\n- Automatic memory management\n- Extensive standard library\n- Support for multiple programming paradigms (OOP, functional, procedural)\n\nHistory:\nPython was created by Guido van Rossum and first released in 1991.\nThe language emphasizes code readability with significant use of whitespace.\n\nPopular Use Cases:\n- Web de",
+    "file_type": "txt"
+  },
+  {
+    "path": "C:\\Users\\vinilm\\PycharmProjects\\TestOllama\\test_docs\\python_basics.txt",
+    "chunk_index": 1,
+    "text": "onal, procedural)\n\nHistory:\nPython was created by Guido van Rossum and first released in 1991.\nThe language emphasizes code readability with significant use of whitespace.\n\nPopular Use Cases:\n- Web development (Django, Flask)\n- Data science and machine learning\n- Automation and scripting\n- Scientific computing\n\nPython 3 is the current major version, with Python 2 officially deprecated in 2020.\nEOF",
+    "file_type": "txt"
+  },
+  {
+    "path": "C:\\Users\\vinilm\\PycharmProjects\\TestOllama\\test_docs\\rag_systems_guide.txt",
+    "chunk_index": 0,
+    "text": "Retrieval-Augmented Generation (RAG) Systems\n\nRAG combines information retrieval with text generation to produce accurate, grounded responses.\n\nRAG Architecture:\n\nComponents:\n1. Document Store: Contains knowledge base\n2. Retriever: Finds relevant documents\n3. Generator: LLM that produces answers\n4. User Interface: Query input and response display\n\nHow RAG Works:\n\nStep 1: Indexing (Offline)\n- Load documents\n- Split into chunks\n- Generate embeddings\n- Store in vector database\n\nStep 2: Retrieval (",
+    "file_type": "txt"
+  },
+  {
+    "path": "C:\\Users\\vinilm\\PycharmProjects\\TestOllama\\test_docs\\rag_systems_guide.txt",
+    "chunk_index": 1,
+    "text": "User Interface: Query input and response display\n\nHow RAG Works:\n\nStep 1: Indexing (Offline)\n- Load documents\n- Split into chunks\n- Generate embeddings\n- Store in vector database\n\nStep 2: Retrieval (Per Query)\n- User asks question\n- Convert question to embedding\n- Search vector database\n- Retrieve top-k relevant chunks\n\nStep 3: Generation (Per Query)\n- Combine retrieved chunks\n- Create prompt with context\n- LLM generates answer\n- Return response to user\n\nAdvantages of RAG:\n\n1. Up-to-date Inform",
+    "file_type": "txt"
+  },
+  {
+    "path": "C:\\Users\\vinilm\\PycharmProjects\\TestOllama\\test_docs\\rag_systems_guide.txt",
+    "chunk_index": 2,
+    "text": "top-k relevant chunks\n\nStep 3: Generation (Per Query)\n- Combine retrieved chunks\n- Create prompt with context\n- LLM generates answer\n- Return response to user\n\nAdvantages of RAG:\n\n1. Up-to-date Information\n   - Easy to update knowledge base\n   - No retraining needed\n   - Add/remove documents anytime\n\n2. Reduced Hallucinations\n   - Grounded in source documents\n   - Can cite sources\n   - More trustworthy responses\n\n3. Domain Adaptation\n   - Works with specialized knowledge\n   - No fine-tuning requ",
+    "file_type": "txt"
+  },
+  {
+    "path": "C:\\Users\\vinilm\\PycharmProjects\\TestOllama\\test_docs\\rag_systems_guide.txt",
+    "chunk_index": 3,
+    "text": "2. Reduced Hallucinations\n   - Grounded in source documents\n   - Can cite sources\n   - More trustworthy responses\n\n3. Domain Adaptation\n   - Works with specialized knowledge\n   - No fine-tuning required\n   - Cost-effective\n\n4. Transparency\n   - Show source documents\n   - Verify claims\n   - Build user trust\n\nChunking Strategies:\n\nFixed-Size Chunking:\n- Split every N characters/tokens\n- Simple and fast\n- May break semantic units\n\nSemantic Chunking:\n- Split at paragraph/section boundaries\n- Prese",
+    "file_type": "txt"
+  },
+  {
+    "path": "C:\\Users\\vinilm\\PycharmProjects\\TestOllama\\test_docs\\rag_systems_guide.txt",
+    "chunk_index": 4,
+    "text": "ser trust\n\nChunking Strategies:\n\nFixed-Size Chunking:\n- Split every N characters/tokens\n- Simple and fast\n- May break semantic units\n\nSemantic Chunking:\n- Split at paragraph/section boundaries\n- Preserves meaning\n- Better retrieval quality\n\nOverlap Strategy:\n- Chunks share some content\n- Prevents information loss at boundaries\n- Typical overlap: 10-20%\n\nRetrieval Methods:\n\nDense Retrieval (Embeddings):\n- Semantic similarity\n- Handles paraphrasing\n- Our approach!\n\nSparse Retrieval (Keywords):\n- B",
+    "file_type": "txt"
+  },
+  {
+    "path": "C:\\Users\\vinilm\\PycharmProjects\\TestOllama\\test_docs\\rag_systems_guide.txt",
+    "chunk_index": 5,
+    "text": "formation loss at boundaries\n- Typical overlap: 10-20%\n\nRetrieval Methods:\n\nDense Retrieval (Embeddings):\n- Semantic similarity\n- Handles paraphrasing\n- Our approach!\n\nSparse Retrieval (Keywords):\n- BM25, TF-IDF\n- Fast and interpretable\n- Good for exact matches\n\nHybrid Retrieval:\n- Combine dense + sparse\n- Best of both worlds\n- Used in production systems\n\nEvaluation Metrics:\n\nRetrieval Quality:\n- Precision@k: Relevant docs in top k\n- Recall@k: Coverage of relevant docs\n- MRR: Mean reciprocal ran",
+    "file_type": "txt"
+  },
+  {
+    "path": "C:\\Users\\vinilm\\PycharmProjects\\TestOllama\\test_docs\\rag_systems_guide.txt",
+    "chunk_index": 6,
+    "text": "parse\n- Best of both worlds\n- Used in production systems\n\nEvaluation Metrics:\n\nRetrieval Quality:\n- Precision@k: Relevant docs in top k\n- Recall@k: Coverage of relevant docs\n- MRR: Mean reciprocal rank\n\nGeneration Quality:\n- Faithfulness: Answer matches sources\n- Relevance: Answer addresses question\n- Coherence: Well-structured response\n\nBest Practices:\n\n1. Chunk size: 300-800 tokens\n2. Retrieve 3-5 chunks per query\n3. Use overlap (50-100 tokens)\n4. Implement re-ranking for better results\n5. Add",
+    "file_type": "txt"
+  },
+  {
+    "path": "C:\\Users\\vinilm\\PycharmProjects\\TestOllama\\test_docs\\rag_systems_guide.txt",
+    "chunk_index": 7,
+    "text": "- Coherence: Well-structured response\n\nBest Practices:\n\n1. Chunk size: 300-800 tokens\n2. Retrieve 3-5 chunks per query\n3. Use overlap (50-100 tokens)\n4. Implement re-ranking for better results\n5. Add metadata filtering when possible\n6. Monitor and evaluate continuously\nEOF",
+    "file_type": "txt"
+  },
+  {
+    "path": "C:\\Users\\vinilm\\PycharmProjects\\TestOllama\\test_docs\\NIPS-2017-attention-is-all-you-need-Paper.pdf",
+    "chunk_index": 0,
+    "text": "Attention Is All You Need\nAshish Vaswani∗\nGoogle Brain\navaswani@google.com\nNoam Shazeer∗\nGoogle Brain\nnoam@google.com\nNiki Parmar∗\nGoogle Research\nnikip@google.com\nJakob Uszkoreit∗\nGoogle Research\nusz@google.com\nLlion Jones∗\nGoogle Research\nllion@google.com\nAidan N. Gomez∗†\nUniversity of Toronto\naidan@cs.toronto.edu\nŁukasz Kaiser ∗\nGoogle Brain\nlukaszkaiser@google.com\nIllia Polosukhin∗‡\nillia.polosukhin@gmail.com\nAbstract\nThe dominant sequence transduction models are based on complex recurrent o",
+    "file_type": "pdf"
+  },
+  {
+    "path": "C:\\Users\\vinilm\\PycharmProjects\\TestOllama\\test_docs\\NIPS-2017-attention-is-all-you-need-Paper.pdf",
+    "chunk_index": 1,
+    "text": "an@cs.toronto.edu\nŁukasz Kaiser ∗\nGoogle Brain\nlukaszkaiser@google.com\nIllia Polosukhin∗‡\nillia.polosukhin@gmail.com\nAbstract\nThe dominant sequence transduction models are based on complex recurrent or\nconvolutional neural networks that include an encoder and a decoder. The best\nperforming models also connect the encoder and decoder through an attention\nmechanism. We propose a new simple network architecture, the Transformer,\nbased solely on attention mechanisms, dispensing with recurrence and c",
+    "file_type": "pdf"
+  },
+  {
+    "path": "C:\\Users\\vinilm\\PycharmProjects\\TestOllama\\test_docs\\NIPS-2017-attention-is-all-you-need-Paper.pdf",
+    "chunk_index": 2,
+    "text": "so connect the encoder and decoder through an attention\nmechanism. We propose a new simple network architecture, the Transformer,\nbased solely on attention mechanisms, dispensing with recurrence and convolutions\nentirely. Experiments on two machine translation tasks show these models to\nbe superior in quality while being more parallelizable and requiring signiﬁcantly\nless time to train. Our model achieves 28.4 BLEU on the WMT 2014 English-\nto-German translation task, improving over the existing",
+    "file_type": "pdf"
+  },
+  {
+    "path": "C:\\Users\\vinilm\\PycharmProjects\\TestOllama\\test_docs\\NIPS-2017-attention-is-all-you-need-Paper.pdf",
+    "chunk_index": 3,
+    "text": "in quality while being more parallelizable and requiring signiﬁcantly\nless time to train. Our model achieves 28.4 BLEU on the WMT 2014 English-\nto-German translation task, improving over the existing best results, including\nensembles, by over 2 BLEU. On the WMT 2014 English-to-French translation task,\nour model establishes a new single-model state-of-the-art BLEU score of 41.0 after\ntraining for 3.5 days on eight GPUs, a small fraction of the training costs of the\nbest models from the literature",
+    "file_type": "pdf"
+  },
+  {
+    "path": "C:\\Users\\vinilm\\PycharmProjects\\TestOllama\\test_docs\\NIPS-2017-attention-is-all-you-need-Paper.pdf",
+    "chunk_index": 4,
+    "text": "k,\nour model establishes a new single-model state-of-the-art BLEU score of 41.0 after\ntraining for 3.5 days on eight GPUs, a small fraction of the training costs of the\nbest models from the literature.\n1 Introduction\nRecurrent neural networks, long short-term memory [12] and gated recurrent [7] neural networks\nin particular, have been ﬁrmly established as state of the art approaches in sequence modeling and\ntransduction problems such as language modeling and machine translation [ 29, 2, 5]. Nume",
+    "file_type": "pdf"
+  },
+  {
+    "path": "C:\\Users\\vinilm\\PycharmProjects\\TestOllama\\test_docs\\NIPS-2017-attention-is-all-you-need-Paper.pdf",
+    "chunk_index": 5,
+    "text": "al networks\nin particular, have been ﬁrmly established as state of the art approaches in sequence modeling and\ntransduction problems such as language modeling and machine translation [ 29, 2, 5]. Numerous\nefforts have since continued to push the boundaries of recurrent language models and encoder-decoder\narchitectures [31, 21, 13].\n∗Equal contribution. Listing order is random. Jakob proposed replacing RNNs with self-attention and started\nthe effort to evaluate this idea. Ashish, with Illia, desi",
+    "file_type": "pdf"
+  },
+  {
+    "path": "C:\\Users\\vinilm\\PycharmProjects\\TestOllama\\test_docs\\NIPS-2017-attention-is-all-you-need-Paper.pdf",
+    "chunk_index": 6,
+    "text": "coder\narchitectures [31, 21, 13].\n∗Equal contribution. Listing order is random. Jakob proposed replacing RNNs with self-attention and started\nthe effort to evaluate this idea. Ashish, with Illia, designed and implemented the ﬁrst Transformer models and\nhas been crucially involved in every aspect of this work. Noam proposed scaled dot-product attention, multi-head\nattention and the parameter-free position representation and became the other person involved in nearly every\ndetail. Niki designed, i",
+    "file_type": "pdf"
+  },
+  {
+    "path": "C:\\Users\\vinilm\\PycharmProjects\\TestOllama\\test_docs\\NIPS-2017-attention-is-all-you-need-Paper.pdf",
+    "chunk_index": 7,
+    "text": "this work. Noam proposed scaled dot-product attention, multi-head\nattention and the parameter-free position representation and became the other person involved in nearly every\ndetail. Niki designed, implemented, tuned and evaluated countless model variants in our original codebase and\ntensor2tensor. Llion also experimented with novel model variants, was responsible for our initial codebase, and\nefﬁcient inference and visualizations. Lukasz and Aidan spent countless long days designing various pa",
+    "file_type": "pdf"
+  },
+  {
+    "path": "C:\\Users\\vinilm\\PycharmProjects\\TestOllama\\test_docs\\NIPS-2017-attention-is-all-you-need-Paper.pdf",
+    "chunk_index": 8,
+    "text": "Llion also experimented with novel model variants, was responsible for our initial codebase, and\nefﬁcient inference and visualizations. Lukasz and Aidan spent countless long days designing various parts of and\nimplementing tensor2tensor, replacing our earlier codebase, greatly improving results and massively accelerating\nour research.\n†Work performed while at Google Brain.\n‡Work performed while at Google Research.\n31st Conference on Neural Information Processing Systems (NIPS 2017), Long Beach,",
+    "file_type": "pdf"
+  },
+  {
+    "path": "C:\\Users\\vinilm\\PycharmProjects\\TestOllama\\test_docs\\NIPS-2017-attention-is-all-you-need-Paper.pdf",
+    "chunk_index": 9,
+    "text": "massively accelerating\nour research.\n†Work performed while at Google Brain.\n‡Work performed while at Google Research.\n31st Conference on Neural Information Processing Systems (NIPS 2017), Long Beach, CA, USA.\nRecurrent models typically factor computation along the symbol positions of the input and output\nsequences. Aligning the positions to steps in computation time, they generate a sequence of hidden\nstates ht, as a function of the previous hidden state ht−1 and the input for position t. This",
+    "file_type": "pdf"
+  },
+  {
+    "path": "C:\\Users\\vinilm\\PycharmProjects\\TestOllama\\test_docs\\NIPS-2017-attention-is-all-you-need-Paper.pdf",
+    "chunk_index": 10,
+    "text": "output\nsequences. Aligning the positions to steps in computation time, they generate a sequence of hidden\nstates ht, as a function of the previous hidden state ht−1 and the input for position t. This inherently\nsequential nature precludes parallelization within training examples, which becomes critical at longer\nsequence lengths, as memory constraints limit batching across examples. Recent work has achieved\nsigniﬁcant improvements in computational efﬁciency through factorization tricks [18] and",
+    "file_type": "pdf"
+  },
+  {
+    "path": "C:\\Users\\vinilm\\PycharmProjects\\TestOllama\\test_docs\\NIPS-2017-attention-is-all-you-need-Paper.pdf",
+    "chunk_index": 11,
+    "text": "cal at longer\nsequence lengths, as memory constraints limit batching across examples. Recent work has achieved\nsigniﬁcant improvements in computational efﬁciency through factorization tricks [18] and conditional\ncomputation [26], while also improving model performance in case of the latter. The fundamental\nconstraint of sequential computation, however, remains.\nAttention mechanisms have become an integral part of compelling sequence modeling and transduc-\ntion models in various tasks, allowing m",
+    "file_type": "pdf"
+  },
+  {
+    "path": "C:\\Users\\vinilm\\PycharmProjects\\TestOllama\\test_docs\\NIPS-2017-attention-is-all-you-need-Paper.pdf",
+    "chunk_index": 12,
+    "text": "amental\nconstraint of sequential computation, however, remains.\nAttention mechanisms have become an integral part of compelling sequence modeling and transduc-\ntion models in various tasks, allowing modeling of dependencies without regard to their distance in\nthe input or output sequences [2, 16]. In all but a few cases [22], however, such attention mechanisms\nare used in conjunction with a recurrent network.\nIn this work we propose the Transformer, a model architecture eschewing recurrence and",
+    "file_type": "pdf"
+  },
+  {
+    "path": "C:\\Users\\vinilm\\PycharmProjects\\TestOllama\\test_docs\\NIPS-2017-attention-is-all-you-need-Paper.pdf",
+    "chunk_index": 13,
+    "text": "n all but a few cases [22], however, such attention mechanisms\nare used in conjunction with a recurrent network.\nIn this work we propose the Transformer, a model architecture eschewing recurrence and instead\nrelying entirely on an attention mechanism to draw global dependencies between input and output.\nThe Transformer allows for signiﬁcantly more parallelization and can reach a new state of the art in\ntranslation quality after being trained for as little as twelve hours on eight P100 GPUs.\n2 Ba",
+    "file_type": "pdf"
+  },
+  {
+    "path": "C:\\Users\\vinilm\\PycharmProjects\\TestOllama\\test_docs\\NIPS-2017-attention-is-all-you-need-Paper.pdf",
+    "chunk_index": 14,
+    "text": "put.\nThe Transformer allows for signiﬁcantly more parallelization and can reach a new state of the art in\ntranslation quality after being trained for as little as twelve hours on eight P100 GPUs.\n2 Background\nThe goal of reducing sequential computation also forms the foundation of the Extended Neural GPU\n[20], ByteNet [15] and ConvS2S [8], all of which use convolutional neural networks as basic building\nblock, computing hidden representations in parallel for all input and output positions. In th",
+    "file_type": "pdf"
+  },
+  {
+    "path": "C:\\Users\\vinilm\\PycharmProjects\\TestOllama\\test_docs\\NIPS-2017-attention-is-all-you-need-Paper.pdf",
+    "chunk_index": 15,
+    "text": "l GPU\n[20], ByteNet [15] and ConvS2S [8], all of which use convolutional neural networks as basic building\nblock, computing hidden representations in parallel for all input and output positions. In these models,\nthe number of operations required to relate signals from two arbitrary input or output positions grows\nin the distance between positions, linearly for ConvS2S and logarithmically for ByteNet. This makes\nit more difﬁcult to learn dependencies between distant positions [ 11]. In the Transf",
+    "file_type": "pdf"
+  },
+  {
+    "path": "C:\\Users\\vinilm\\PycharmProjects\\TestOllama\\test_docs\\NIPS-2017-attention-is-all-you-need-Paper.pdf",
+    "chunk_index": 16,
+    "text": "ositions grows\nin the distance between positions, linearly for ConvS2S and logarithmically for ByteNet. This makes\nit more difﬁcult to learn dependencies between distant positions [ 11]. In the Transformer this is\nreduced to a constant number of operations, albeit at the cost of reduced effective resolution due\nto averaging attention-weighted positions, an effect we counteract with Multi-Head Attention as\ndescribed in section 3.2.\nSelf-attention, sometimes called intra-attention is an attention",
+    "file_type": "pdf"
+  },
+  {
+    "path": "C:\\Users\\vinilm\\PycharmProjects\\TestOllama\\test_docs\\NIPS-2017-attention-is-all-you-need-Paper.pdf",
+    "chunk_index": 17,
+    "text": "solution due\nto averaging attention-weighted positions, an effect we counteract with Multi-Head Attention as\ndescribed in section 3.2.\nSelf-attention, sometimes called intra-attention is an attention mechanism relating different positions\nof a single sequence in order to compute a representation of the sequence. Self-attention has been\nused successfully in a variety of tasks including reading comprehension, abstractive summarization,\ntextual entailment and learning task-independent sentence repr",
+    "file_type": "pdf"
+  },
+  {
+    "path": "C:\\Users\\vinilm\\PycharmProjects\\TestOllama\\test_docs\\NIPS-2017-attention-is-all-you-need-Paper.pdf",
+    "chunk_index": 18,
+    "text": "the sequence. Self-attention has been\nused successfully in a variety of tasks including reading comprehension, abstractive summarization,\ntextual entailment and learning task-independent sentence representations [4, 22, 23, 19].\nEnd-to-end memory networks are based on a recurrent attention mechanism instead of sequence-\naligned recurrence and have been shown to perform well on simple-language question answering and\nlanguage modeling tasks [28].\nTo the best of our knowledge, however, the Transfor",
+    "file_type": "pdf"
+  },
+  {
+    "path": "C:\\Users\\vinilm\\PycharmProjects\\TestOllama\\test_docs\\NIPS-2017-attention-is-all-you-need-Paper.pdf",
+    "chunk_index": 19,
+    "text": "instead of sequence-\naligned recurrence and have been shown to perform well on simple-language question answering and\nlanguage modeling tasks [28].\nTo the best of our knowledge, however, the Transformer is the ﬁrst transduction model relying\nentirely on self-attention to compute representations of its input and output without using sequence-\naligned RNNs or convolution. In the following sections, we will describe the Transformer, motivate\nself-attention and discuss its advantages over models su",
+    "file_type": "pdf"
+  },
+  {
+    "path": "C:\\Users\\vinilm\\PycharmProjects\\TestOllama\\test_docs\\NIPS-2017-attention-is-all-you-need-Paper.pdf",
+    "chunk_index": 20,
+    "text": "its input and output without using sequence-\naligned RNNs or convolution. In the following sections, we will describe the Transformer, motivate\nself-attention and discuss its advantages over models such as [14, 15] and [8].\n3 Model Architecture\nMost competitive neural sequence transduction models have an encoder-decoder structure [5, 2, 29].\nHere, the encoder maps an input sequence of symbol representations (x1,...,x n) to a sequence\nof continuous representations z = (z1,...,z n). Given z, the d",
+    "file_type": "pdf"
+  },
+  {
+    "path": "C:\\Users\\vinilm\\PycharmProjects\\TestOllama\\test_docs\\NIPS-2017-attention-is-all-you-need-Paper.pdf",
+    "chunk_index": 21,
+    "text": "ve an encoder-decoder structure [5, 2, 29].\nHere, the encoder maps an input sequence of symbol representations (x1,...,x n) to a sequence\nof continuous representations z = (z1,...,z n). Given z, the decoder then generates an output\nsequence (y1,...,y m) of symbols one element at a time. At each step the model is auto-regressive\n[9], consuming the previously generated symbols as additional input when generating the next.\nThe Transformer follows this overall architecture using stacked self-attenti",
+    "file_type": "pdf"
+  },
+  {
+    "path": "C:\\Users\\vinilm\\PycharmProjects\\TestOllama\\test_docs\\NIPS-2017-attention-is-all-you-need-Paper.pdf",
+    "chunk_index": 22,
+    "text": "the model is auto-regressive\n[9], consuming the previously generated symbols as additional input when generating the next.\nThe Transformer follows this overall architecture using stacked self-attention and point-wise, fully\nconnected layers for both the encoder and decoder, shown in the left and right halves of Figure 1,\nrespectively.\n3.1 Encoder and Decoder Stacks\nEncoder: The encoder is composed of a stack of N = 6 identical layers. Each layer has two\nsub-layers. The ﬁrst is a multi-head self",
+    "file_type": "pdf"
+  },
+  {
+    "path": "C:\\Users\\vinilm\\PycharmProjects\\TestOllama\\test_docs\\NIPS-2017-attention-is-all-you-need-Paper.pdf",
+    "chunk_index": 23,
+    "text": "ght halves of Figure 1,\nrespectively.\n3.1 Encoder and Decoder Stacks\nEncoder: The encoder is composed of a stack of N = 6 identical layers. Each layer has two\nsub-layers. The ﬁrst is a multi-head self-attention mechanism, and the second is a simple, position-\n2\nFigure 1: The Transformer - model architecture.\nwise fully connected feed-forward network. We employ a residual connection [10] around each of\nthe two sub-layers, followed by layer normalization [ 1]. That is, the output of each sub-layer",
+    "file_type": "pdf"
+  },
+  {
+    "path": "C:\\Users\\vinilm\\PycharmProjects\\TestOllama\\test_docs\\NIPS-2017-attention-is-all-you-need-Paper.pdf",
+    "chunk_index": 24,
+    "text": "itecture.\nwise fully connected feed-forward network. We employ a residual connection [10] around each of\nthe two sub-layers, followed by layer normalization [ 1]. That is, the output of each sub-layer is\nLayerNorm(x+ Sublayer(x)), where Sublayer(x) is the function implemented by the sub-layer\nitself. To facilitate these residual connections, all sub-layers in the model, as well as the embedding\nlayers, produce outputs of dimension dmodel = 512.\nDecoder: The decoder is also composed of a stack of",
+    "file_type": "pdf"
+  },
+  {
+    "path": "C:\\Users\\vinilm\\PycharmProjects\\TestOllama\\test_docs\\NIPS-2017-attention-is-all-you-need-Paper.pdf",
+    "chunk_index": 25,
+    "text": ". To facilitate these residual connections, all sub-layers in the model, as well as the embedding\nlayers, produce outputs of dimension dmodel = 512.\nDecoder: The decoder is also composed of a stack of N = 6identical layers. In addition to the two\nsub-layers in each encoder layer, the decoder inserts a third sub-layer, which performs multi-head\nattention over the output of the encoder stack. Similar to the encoder, we employ residual connections\naround each of the sub-layers, followed by layer no",
+    "file_type": "pdf"
+  },
+  {
+    "path": "C:\\Users\\vinilm\\PycharmProjects\\TestOllama\\test_docs\\NIPS-2017-attention-is-all-you-need-Paper.pdf",
+    "chunk_index": 26,
+    "text": "a third sub-layer, which performs multi-head\nattention over the output of the encoder stack. Similar to the encoder, we employ residual connections\naround each of the sub-layers, followed by layer normalization. We also modify the self-attention\nsub-layer in the decoder stack to prevent positions from attending to subsequent positions. This\nmasking, combined with fact that the output embeddings are offset by one position, ensures that the\npredictions for position ican depend only on the known o",
+    "file_type": "pdf"
+  },
+  {
+    "path": "C:\\Users\\vinilm\\PycharmProjects\\TestOllama\\test_docs\\NIPS-2017-attention-is-all-you-need-Paper.pdf",
+    "chunk_index": 27,
+    "text": "rom attending to subsequent positions. This\nmasking, combined with fact that the output embeddings are offset by one position, ensures that the\npredictions for position ican depend only on the known outputs at positions less than i.\n3.2 Attention\nAn attention function can be described as mapping a query and a set of key-value pairs to an output,\nwhere the query, keys, values, and output are all vectors. The output is computed as a weighted sum\nof the values, where the weight assigned to each val",
+    "file_type": "pdf"
+  },
+  {
+    "path": "C:\\Users\\vinilm\\PycharmProjects\\TestOllama\\test_docs\\NIPS-2017-attention-is-all-you-need-Paper.pdf",
+    "chunk_index": 28,
+    "text": "uery and a set of key-value pairs to an output,\nwhere the query, keys, values, and output are all vectors. The output is computed as a weighted sum\nof the values, where the weight assigned to each value is computed by a compatibility function of the\nquery with the corresponding key.\n3.2.1 Scaled Dot-Product Attention\nWe call our particular attention \"Scaled Dot-Product Attention\" (Figure 2). The input consists of\nqueries and keys of dimension dk, and values of dimension dv. We compute the dot pr",
+    "file_type": "pdf"
+  },
+  {
+    "path": "C:\\Users\\vinilm\\PycharmProjects\\TestOllama\\test_docs\\NIPS-2017-attention-is-all-you-need-Paper.pdf",
+    "chunk_index": 29,
+    "text": "-Product Attention\nWe call our particular attention \"Scaled Dot-Product Attention\" (Figure 2). The input consists of\nqueries and keys of dimension dk, and values of dimension dv. We compute the dot products of the\n3\nScaled Dot-Product Attention\n Multi-Head Attention\nFigure 2: (left) Scaled Dot-Product Attention. (right) Multi-Head Attention consists of several\nattention layers running in parallel.\nquery with all keys, divide each by √dk, and apply a softmax function to obtain the weights on the",
+    "file_type": "pdf"
+  },
+  {
+    "path": "C:\\Users\\vinilm\\PycharmProjects\\TestOllama\\test_docs\\NIPS-2017-attention-is-all-you-need-Paper.pdf",
+    "chunk_index": 30,
+    "text": "ct Attention. (right) Multi-Head Attention consists of several\nattention layers running in parallel.\nquery with all keys, divide each by √dk, and apply a softmax function to obtain the weights on the\nvalues.\nIn practice, we compute the attention function on a set of queries simultaneously, packed together\ninto a matrix Q. The keys and values are also packed together into matrices Kand V. We compute\nthe matrix of outputs as:\nAttention(Q,K,V ) = softmax(QKT\n√dk\n)V (1)\nThe two most commonly used at",
+    "file_type": "pdf"
+  },
+  {
+    "path": "C:\\Users\\vinilm\\PycharmProjects\\TestOllama\\test_docs\\NIPS-2017-attention-is-all-you-need-Paper.pdf",
+    "chunk_index": 31,
+    "text": "gether\ninto a matrix Q. The keys and values are also packed together into matrices Kand V. We compute\nthe matrix of outputs as:\nAttention(Q,K,V ) = softmax(QKT\n√dk\n)V (1)\nThe two most commonly used attention functions are additive attention [2], and dot-product (multi-\nplicative) attention. Dot-product attention is identical to our algorithm, except for the scaling factor\nof 1√dk\n. Additive attention computes the compatibility function using a feed-forward network with\na single hidden layer. Whi",
+    "file_type": "pdf"
+  },
+  {
+    "path": "C:\\Users\\vinilm\\PycharmProjects\\TestOllama\\test_docs\\NIPS-2017-attention-is-all-you-need-Paper.pdf",
+    "chunk_index": 32,
+    "text": "uct attention is identical to our algorithm, except for the scaling factor\nof 1√dk\n. Additive attention computes the compatibility function using a feed-forward network with\na single hidden layer. While the two are similar in theoretical complexity, dot-product attention is\nmuch faster and more space-efﬁcient in practice, since it can be implemented using highly optimized\nmatrix multiplication code.\nWhile for small values of dk the two mechanisms perform similarly, additive attention outperforms",
+    "file_type": "pdf"
+  },
+  {
+    "path": "C:\\Users\\vinilm\\PycharmProjects\\TestOllama\\test_docs\\NIPS-2017-attention-is-all-you-need-Paper.pdf",
+    "chunk_index": 33,
+    "text": "e-efﬁcient in practice, since it can be implemented using highly optimized\nmatrix multiplication code.\nWhile for small values of dk the two mechanisms perform similarly, additive attention outperforms\ndot product attention without scaling for larger values of dk [3]. We suspect that for large values of\ndk, the dot products grow large in magnitude, pushing the softmax function into regions where it has\nextremely small gradients 4. To counteract this effect, we scale the dot products by 1√dk\n.\n3.2",
+    "file_type": "pdf"
+  },
+  {
+    "path": "C:\\Users\\vinilm\\PycharmProjects\\TestOllama\\test_docs\\NIPS-2017-attention-is-all-you-need-Paper.pdf",
+    "chunk_index": 34,
+    "text": "of\ndk, the dot products grow large in magnitude, pushing the softmax function into regions where it has\nextremely small gradients 4. To counteract this effect, we scale the dot products by 1√dk\n.\n3.2.2 Multi-Head Attention\nInstead of performing a single attention function with dmodel-dimensional keys, values and queries,\nwe found it beneﬁcial to linearly project the queries, keys and values htimes with different, learned\nlinear projections to dk, dk and dv dimensions, respectively. On each of t",
+    "file_type": "pdf"
+  },
+  {
+    "path": "C:\\Users\\vinilm\\PycharmProjects\\TestOllama\\test_docs\\NIPS-2017-attention-is-all-you-need-Paper.pdf",
+    "chunk_index": 35,
+    "text": "ys, values and queries,\nwe found it beneﬁcial to linearly project the queries, keys and values htimes with different, learned\nlinear projections to dk, dk and dv dimensions, respectively. On each of these projected versions of\nqueries, keys and values we then perform the attention function in parallel, yielding dv-dimensional\noutput values. These are concatenated and once again projected, resulting in the ﬁnal values, as\ndepicted in Figure 2.\nMulti-head attention allows the model to jointly atte",
+    "file_type": "pdf"
+  },
+  {
+    "path": "C:\\Users\\vinilm\\PycharmProjects\\TestOllama\\test_docs\\NIPS-2017-attention-is-all-you-need-Paper.pdf",
+    "chunk_index": 36,
+    "text": "el, yielding dv-dimensional\noutput values. These are concatenated and once again projected, resulting in the ﬁnal values, as\ndepicted in Figure 2.\nMulti-head attention allows the model to jointly attend to information from different representation\nsubspaces at different positions. With a single attention head, averaging inhibits this.\n4To illustrate why the dot products get large, assume that the components of q and k are independent random\nvariables with mean 0 and variance 1. Then their dot pr",
+    "file_type": "pdf"
+  },
+  {
+    "path": "C:\\Users\\vinilm\\PycharmProjects\\TestOllama\\test_docs\\NIPS-2017-attention-is-all-you-need-Paper.pdf",
+    "chunk_index": 37,
+    "text": "ntion head, averaging inhibits this.\n4To illustrate why the dot products get large, assume that the components of q and k are independent random\nvariables with mean 0 and variance 1. Then their dot product, q · k = ∑dk\ni=1 qiki, has mean 0 and variance dk.\n4\nMultiHead(Q,K,V ) = Concat(head1,..., headh)WO\nwhere headi = Attention(QWQ\ni ,KW K\ni ,VW V\ni )\nWhere the projections are parameter matricesWQ\ni ∈Rdmodel×dk , WK\ni ∈Rdmodel×dk , WV\ni ∈Rdmodel×dv\nand WO ∈Rhdv×dmodel .\nIn this work we employ h",
+    "file_type": "pdf"
+  },
+  {
+    "path": "C:\\Users\\vinilm\\PycharmProjects\\TestOllama\\test_docs\\NIPS-2017-attention-is-all-you-need-Paper.pdf",
+    "chunk_index": 38,
+    "text": "dh)WO\nwhere headi = Attention(QWQ\ni ,KW K\ni ,VW V\ni )\nWhere the projections are parameter matricesWQ\ni ∈Rdmodel×dk , WK\ni ∈Rdmodel×dk , WV\ni ∈Rdmodel×dv\nand WO ∈Rhdv×dmodel .\nIn this work we employ h = 8 parallel attention layers, or heads. For each of these we use\ndk = dv = dmodel/h= 64. Due to the reduced dimension of each head, the total computational cost\nis similar to that of single-head attention with full dimensionality.\n3.2.3 Applications of Attention in our Model\nThe Transformer uses mu",
+    "file_type": "pdf"
+  },
+  {
+    "path": "C:\\Users\\vinilm\\PycharmProjects\\TestOllama\\test_docs\\NIPS-2017-attention-is-all-you-need-Paper.pdf",
+    "chunk_index": 39,
+    "text": "reduced dimension of each head, the total computational cost\nis similar to that of single-head attention with full dimensionality.\n3.2.3 Applications of Attention in our Model\nThe Transformer uses multi-head attention in three different ways:\n• In \"encoder-decoder attention\" layers, the queries come from the previous decoder layer,\nand the memory keys and values come from the output of the encoder. This allows every\nposition in the decoder to attend over all positions in the input sequence. Thi",
+    "file_type": "pdf"
+  },
+  {
+    "path": "C:\\Users\\vinilm\\PycharmProjects\\TestOllama\\test_docs\\NIPS-2017-attention-is-all-you-need-Paper.pdf",
+    "chunk_index": 40,
+    "text": "e from the previous decoder layer,\nand the memory keys and values come from the output of the encoder. This allows every\nposition in the decoder to attend over all positions in the input sequence. This mimics the\ntypical encoder-decoder attention mechanisms in sequence-to-sequence models such as\n[31, 2, 8].\n• The encoder contains self-attention layers. In a self-attention layer all of the keys, values\nand queries come from the same place, in this case, the output of the previous layer in the\nenc",
+    "file_type": "pdf"
+  },
+  {
+    "path": "C:\\Users\\vinilm\\PycharmProjects\\TestOllama\\test_docs\\NIPS-2017-attention-is-all-you-need-Paper.pdf",
+    "chunk_index": 41,
+    "text": ", 2, 8].\n• The encoder contains self-attention layers. In a self-attention layer all of the keys, values\nand queries come from the same place, in this case, the output of the previous layer in the\nencoder. Each position in the encoder can attend to all positions in the previous layer of the\nencoder.\n• Similarly, self-attention layers in the decoder allow each position in the decoder to attend to\nall positions in the decoder up to and including that position. We need to prevent leftward\ninformati",
+    "file_type": "pdf"
+  },
+  {
+    "path": "C:\\Users\\vinilm\\PycharmProjects\\TestOllama\\test_docs\\NIPS-2017-attention-is-all-you-need-Paper.pdf",
+    "chunk_index": 42,
+    "text": "• Similarly, self-attention layers in the decoder allow each position in the decoder to attend to\nall positions in the decoder up to and including that position. We need to prevent leftward\ninformation ﬂow in the decoder to preserve the auto-regressive property. We implement this\ninside of scaled dot-product attention by masking out (setting to −∞) all values in the input\nof the softmax which correspond to illegal connections. See Figure 2.\n3.3 Position-wise Feed-Forward Networks\nIn addition to",
+    "file_type": "pdf"
+  },
+  {
+    "path": "C:\\Users\\vinilm\\PycharmProjects\\TestOllama\\test_docs\\NIPS-2017-attention-is-all-you-need-Paper.pdf",
+    "chunk_index": 43,
+    "text": "ot-product attention by masking out (setting to −∞) all values in the input\nof the softmax which correspond to illegal connections. See Figure 2.\n3.3 Position-wise Feed-Forward Networks\nIn addition to attention sub-layers, each of the layers in our encoder and decoder contains a fully\nconnected feed-forward network, which is applied to each position separately and identically. This\nconsists of two linear transformations with a ReLU activation in between.\nFFN(x) = max(0,xW1 + b1)W2 + b2 (2)\nWhile",
+    "file_type": "pdf"
+  },
+  {
+    "path": "C:\\Users\\vinilm\\PycharmProjects\\TestOllama\\test_docs\\NIPS-2017-attention-is-all-you-need-Paper.pdf",
+    "chunk_index": 44,
+    "text": "-forward network, which is applied to each position separately and identically. This\nconsists of two linear transformations with a ReLU activation in between.\nFFN(x) = max(0,xW1 + b1)W2 + b2 (2)\nWhile the linear transformations are the same across different positions, they use different parameters\nfrom layer to layer. Another way of describing this is as two convolutions with kernel size 1.\nThe dimensionality of input and output is dmodel = 512, and the inner-layer has dimensionality\ndff = 2048.",
+    "file_type": "pdf"
+  },
+  {
+    "path": "C:\\Users\\vinilm\\PycharmProjects\\TestOllama\\test_docs\\NIPS-2017-attention-is-all-you-need-Paper.pdf",
+    "chunk_index": 45,
+    "text": "rom layer to layer. Another way of describing this is as two convolutions with kernel size 1.\nThe dimensionality of input and output is dmodel = 512, and the inner-layer has dimensionality\ndff = 2048.\n3.4 Embeddings and Softmax\nSimilarly to other sequence transduction models, we use learned embeddings to convert the input\ntokens and output tokens to vectors of dimension dmodel. We also use the usual learned linear transfor-\nmation and softmax function to convert the decoder output to predicted n",
+    "file_type": "pdf"
+  },
+  {
+    "path": "C:\\Users\\vinilm\\PycharmProjects\\TestOllama\\test_docs\\NIPS-2017-attention-is-all-you-need-Paper.pdf",
+    "chunk_index": 46,
+    "text": "gs to convert the input\ntokens and output tokens to vectors of dimension dmodel. We also use the usual learned linear transfor-\nmation and softmax function to convert the decoder output to predicted next-token probabilities. In\nour model, we share the same weight matrix between the two embedding layers and the pre-softmax\nlinear transformation, similar to [24]. In the embedding layers, we multiply those weights by √dmodel.\n3.5 Positional Encoding\nSince our model contains no recurrence and no con",
+    "file_type": "pdf"
+  },
+  {
+    "path": "C:\\Users\\vinilm\\PycharmProjects\\TestOllama\\test_docs\\NIPS-2017-attention-is-all-you-need-Paper.pdf",
+    "chunk_index": 47,
+    "text": "ers and the pre-softmax\nlinear transformation, similar to [24]. In the embedding layers, we multiply those weights by √dmodel.\n3.5 Positional Encoding\nSince our model contains no recurrence and no convolution, in order for the model to make use of the\norder of the sequence, we must inject some information about the relative or absolute position of the\ntokens in the sequence. To this end, we add \"positional encodings\" to the input embeddings at the\n5\nTable 1: Maximum path lengths, per-layer compl",
+    "file_type": "pdf"
+  },
+  {
+    "path": "C:\\Users\\vinilm\\PycharmProjects\\TestOllama\\test_docs\\NIPS-2017-attention-is-all-you-need-Paper.pdf",
+    "chunk_index": 48,
+    "text": "mation about the relative or absolute position of the\ntokens in the sequence. To this end, we add \"positional encodings\" to the input embeddings at the\n5\nTable 1: Maximum path lengths, per-layer complexity and minimum number of sequential operations\nfor different layer types. nis the sequence length, dis the representation dimension, kis the kernel\nsize of convolutions and rthe size of the neighborhood in restricted self-attention.\nLayer Type Complexity per Layer Sequential Maximum Path Length\nO",
+    "file_type": "pdf"
+  },
+  {
+    "path": "C:\\Users\\vinilm\\PycharmProjects\\TestOllama\\test_docs\\NIPS-2017-attention-is-all-you-need-Paper.pdf",
+    "chunk_index": 49,
+    "text": ", dis the representation dimension, kis the kernel\nsize of convolutions and rthe size of the neighborhood in restricted self-attention.\nLayer Type Complexity per Layer Sequential Maximum Path Length\nOperations\nSelf-Attention O(n2 ·d) O(1) O(1)\nRecurrent O(n·d2) O(n) O(n)\nConvolutional O(k·n·d2) O(1) O(logk(n))\nSelf-Attention (restricted) O(r·n·d) O(1) O(n/r)\nbottoms of the encoder and decoder stacks. The positional encodings have the same dimension dmodel\nas the embeddings, so that the two can b",
+    "file_type": "pdf"
+  },
+  {
+    "path": "C:\\Users\\vinilm\\PycharmProjects\\TestOllama\\test_docs\\NIPS-2017-attention-is-all-you-need-Paper.pdf",
+    "chunk_index": 50,
+    "text": "O(logk(n))\nSelf-Attention (restricted) O(r·n·d) O(1) O(n/r)\nbottoms of the encoder and decoder stacks. The positional encodings have the same dimension dmodel\nas the embeddings, so that the two can be summed. There are many choices of positional encodings,\nlearned and ﬁxed [8].\nIn this work, we use sine and cosine functions of different frequencies:\nPE(pos,2i) = sin(pos/100002i/dmodel )\nPE(pos,2i+1) = cos(pos/100002i/dmodel )\nwhere posis the position and iis the dimension. That is, each dimensi",
+    "file_type": "pdf"
+  },
+  {
+    "path": "C:\\Users\\vinilm\\PycharmProjects\\TestOllama\\test_docs\\NIPS-2017-attention-is-all-you-need-Paper.pdf",
+    "chunk_index": 51,
+    "text": "sine and cosine functions of different frequencies:\nPE(pos,2i) = sin(pos/100002i/dmodel )\nPE(pos,2i+1) = cos(pos/100002i/dmodel )\nwhere posis the position and iis the dimension. That is, each dimension of the positional encoding\ncorresponds to a sinusoid. The wavelengths form a geometric progression from 2πto 10000 ·2π. We\nchose this function because we hypothesized it would allow the model to easily learn to attend by\nrelative positions, since for any ﬁxed offset k, PEpos+k can be represented",
+    "file_type": "pdf"
+  },
+  {
+    "path": "C:\\Users\\vinilm\\PycharmProjects\\TestOllama\\test_docs\\NIPS-2017-attention-is-all-you-need-Paper.pdf",
+    "chunk_index": 52,
+    "text": "n from 2πto 10000 ·2π. We\nchose this function because we hypothesized it would allow the model to easily learn to attend by\nrelative positions, since for any ﬁxed offset k, PEpos+k can be represented as a linear function of\nPEpos.\nWe also experimented with using learned positional embeddings [8] instead, and found that the two\nversions produced nearly identical results (see Table 3 row (E)). We chose the sinusoidal version\nbecause it may allow the model to extrapolate to sequence lengths longer",
+    "file_type": "pdf"
+  },
+  {
+    "path": "C:\\Users\\vinilm\\PycharmProjects\\TestOllama\\test_docs\\NIPS-2017-attention-is-all-you-need-Paper.pdf",
+    "chunk_index": 53,
+    "text": "tead, and found that the two\nversions produced nearly identical results (see Table 3 row (E)). We chose the sinusoidal version\nbecause it may allow the model to extrapolate to sequence lengths longer than the ones encountered\nduring training.\n4 Why Self-Attention\nIn this section we compare various aspects of self-attention layers to the recurrent and convolu-\ntional layers commonly used for mapping one variable-length sequence of symbol representations\n(x1,...,x n) to another sequence of equal l",
+    "file_type": "pdf"
+  },
+  {
+    "path": "C:\\Users\\vinilm\\PycharmProjects\\TestOllama\\test_docs\\NIPS-2017-attention-is-all-you-need-Paper.pdf",
+    "chunk_index": 54,
+    "text": "spects of self-attention layers to the recurrent and convolu-\ntional layers commonly used for mapping one variable-length sequence of symbol representations\n(x1,...,x n) to another sequence of equal length (z1,...,z n), with xi,zi ∈Rd, such as a hidden\nlayer in a typical sequence transduction encoder or decoder. Motivating our use of self-attention we\nconsider three desiderata.\nOne is the total computational complexity per layer. Another is the amount of computation that can\nbe parallelized, as",
+    "file_type": "pdf"
+  },
+  {
+    "path": "C:\\Users\\vinilm\\PycharmProjects\\TestOllama\\test_docs\\NIPS-2017-attention-is-all-you-need-Paper.pdf",
+    "chunk_index": 55,
+    "text": "r or decoder. Motivating our use of self-attention we\nconsider three desiderata.\nOne is the total computational complexity per layer. Another is the amount of computation that can\nbe parallelized, as measured by the minimum number of sequential operations required.\nThe third is the path length between long-range dependencies in the network. Learning long-range\ndependencies is a key challenge in many sequence transduction tasks. One key factor affecting the\nability to learn such dependencies is t",
+    "file_type": "pdf"
+  },
+  {
+    "path": "C:\\Users\\vinilm\\PycharmProjects\\TestOllama\\test_docs\\NIPS-2017-attention-is-all-you-need-Paper.pdf",
+    "chunk_index": 56,
+    "text": "en long-range dependencies in the network. Learning long-range\ndependencies is a key challenge in many sequence transduction tasks. One key factor affecting the\nability to learn such dependencies is the length of the paths forward and backward signals have to\ntraverse in the network. The shorter these paths between any combination of positions in the input\nand output sequences, the easier it is to learn long-range dependencies [11]. Hence we also compare\nthe maximum path length between any two i",
+    "file_type": "pdf"
+  },
+  {
+    "path": "C:\\Users\\vinilm\\PycharmProjects\\TestOllama\\test_docs\\NIPS-2017-attention-is-all-you-need-Paper.pdf",
+    "chunk_index": 57,
+    "text": "se paths between any combination of positions in the input\nand output sequences, the easier it is to learn long-range dependencies [11]. Hence we also compare\nthe maximum path length between any two input and output positions in networks composed of the\ndifferent layer types.\nAs noted in Table 1, a self-attention layer connects all positions with a constant number of sequentially\nexecuted operations, whereas a recurrent layer requires O(n) sequential operations. In terms of\ncomputational complex",
+    "file_type": "pdf"
+  },
+  {
+    "path": "C:\\Users\\vinilm\\PycharmProjects\\TestOllama\\test_docs\\NIPS-2017-attention-is-all-you-need-Paper.pdf",
+    "chunk_index": 58,
+    "text": "self-attention layer connects all positions with a constant number of sequentially\nexecuted operations, whereas a recurrent layer requires O(n) sequential operations. In terms of\ncomputational complexity, self-attention layers are faster than recurrent layers when the sequence\nlength n is smaller than the representation dimensionality d, which is most often the case with\nsentence representations used by state-of-the-art models in machine translations, such as word-piece\n[31] and byte-pair [25] r",
+    "file_type": "pdf"
+  },
+  {
+    "path": "C:\\Users\\vinilm\\PycharmProjects\\TestOllama\\test_docs\\NIPS-2017-attention-is-all-you-need-Paper.pdf",
+    "chunk_index": 59,
+    "text": "an the representation dimensionality d, which is most often the case with\nsentence representations used by state-of-the-art models in machine translations, such as word-piece\n[31] and byte-pair [25] representations. To improve computational performance for tasks involving\nvery long sequences, self-attention could be restricted to considering only a neighborhood of size rin\n6\nthe input sequence centered around the respective output position. This would increase the maximum\npath length to O(n/r).",
+    "file_type": "pdf"
+  },
+  {
+    "path": "C:\\Users\\vinilm\\PycharmProjects\\TestOllama\\test_docs\\NIPS-2017-attention-is-all-you-need-Paper.pdf",
+    "chunk_index": 60,
+    "text": "ttention could be restricted to considering only a neighborhood of size rin\n6\nthe input sequence centered around the respective output position. This would increase the maximum\npath length to O(n/r). We plan to investigate this approach further in future work.\nA single convolutional layer with kernel width k<n does not connect all pairs of input and output\npositions. Doing so requires a stack of O(n/k) convolutional layers in the case of contiguous kernels,\nor O(logk(n)) in the case of dilated c",
+    "file_type": "pdf"
+  },
+  {
+    "path": "C:\\Users\\vinilm\\PycharmProjects\\TestOllama\\test_docs\\NIPS-2017-attention-is-all-you-need-Paper.pdf",
+    "chunk_index": 61,
+    "text": "l width k<n does not connect all pairs of input and output\npositions. Doing so requires a stack of O(n/k) convolutional layers in the case of contiguous kernels,\nor O(logk(n)) in the case of dilated convolutions [ 15], increasing the length of the longest paths\nbetween any two positions in the network. Convolutional layers are generally more expensive than\nrecurrent layers, by a factor of k. Separable convolutions [ 6], however, decrease the complexity\nconsiderably, to O(k·n·d+ n·d2). Even with",
+    "file_type": "pdf"
+  },
+  {
+    "path": "C:\\Users\\vinilm\\PycharmProjects\\TestOllama\\test_docs\\NIPS-2017-attention-is-all-you-need-Paper.pdf",
+    "chunk_index": 62,
+    "text": "rk. Convolutional layers are generally more expensive than\nrecurrent layers, by a factor of k. Separable convolutions [ 6], however, decrease the complexity\nconsiderably, to O(k·n·d+ n·d2). Even with k = n, however, the complexity of a separable\nconvolution is equal to the combination of a self-attention layer and a point-wise feed-forward layer,\nthe approach we take in our model.\nAs side beneﬁt, self-attention could yield more interpretable models. We inspect attention distributions\nfrom our mo",
+    "file_type": "pdf"
+  },
+  {
+    "path": "C:\\Users\\vinilm\\PycharmProjects\\TestOllama\\test_docs\\NIPS-2017-attention-is-all-you-need-Paper.pdf",
+    "chunk_index": 63,
+    "text": "ntion layer and a point-wise feed-forward layer,\nthe approach we take in our model.\nAs side beneﬁt, self-attention could yield more interpretable models. We inspect attention distributions\nfrom our models and present and discuss examples in the appendix. Not only do individual attention\nheads clearly learn to perform different tasks, many appear to exhibit behavior related to the syntactic\nand semantic structure of the sentences.\n5 Training\nThis section describes the training regime for our mode",
+    "file_type": "pdf"
+  },
+  {
+    "path": "C:\\Users\\vinilm\\PycharmProjects\\TestOllama\\test_docs\\NIPS-2017-attention-is-all-you-need-Paper.pdf",
+    "chunk_index": 64,
+    "text": "y learn to perform different tasks, many appear to exhibit behavior related to the syntactic\nand semantic structure of the sentences.\n5 Training\nThis section describes the training regime for our models.\n5.1 Training Data and Batching\nWe trained on the standard WMT 2014 English-German dataset consisting of about 4.5 million\nsentence pairs. Sentences were encoded using byte-pair encoding [ 3], which has a shared source-\ntarget vocabulary of about 37000 tokens. For English-French, we used the sign",
+    "file_type": "pdf"
+  },
+  {
+    "path": "C:\\Users\\vinilm\\PycharmProjects\\TestOllama\\test_docs\\NIPS-2017-attention-is-all-you-need-Paper.pdf",
+    "chunk_index": 65,
+    "text": "ting of about 4.5 million\nsentence pairs. Sentences were encoded using byte-pair encoding [ 3], which has a shared source-\ntarget vocabulary of about 37000 tokens. For English-French, we used the signiﬁcantly larger WMT\n2014 English-French dataset consisting of 36M sentences and split tokens into a 32000 word-piece\nvocabulary [31]. Sentence pairs were batched together by approximate sequence length. Each training\nbatch contained a set of sentence pairs containing approximately 25000 source token",
+    "file_type": "pdf"
+  },
+  {
+    "path": "C:\\Users\\vinilm\\PycharmProjects\\TestOllama\\test_docs\\NIPS-2017-attention-is-all-you-need-Paper.pdf",
+    "chunk_index": 66,
+    "text": "32000 word-piece\nvocabulary [31]. Sentence pairs were batched together by approximate sequence length. Each training\nbatch contained a set of sentence pairs containing approximately 25000 source tokens and 25000\ntarget tokens.\n5.2 Hardware and Schedule\nWe trained our models on one machine with 8 NVIDIA P100 GPUs. For our base models using\nthe hyperparameters described throughout the paper, each training step took about 0.4 seconds. We\ntrained the base models for a total of 100,000 steps or 12 ho",
+    "file_type": "pdf"
+  },
+  {
+    "path": "C:\\Users\\vinilm\\PycharmProjects\\TestOllama\\test_docs\\NIPS-2017-attention-is-all-you-need-Paper.pdf",
+    "chunk_index": 67,
+    "text": "DIA P100 GPUs. For our base models using\nthe hyperparameters described throughout the paper, each training step took about 0.4 seconds. We\ntrained the base models for a total of 100,000 steps or 12 hours. For our big models,(described on the\nbottom line of table 3), step time was 1.0 seconds. The big models were trained for 300,000 steps\n(3.5 days).\n5.3 Optimizer\nWe used the Adam optimizer [17] with β1 = 0.9, β2 = 0.98 and ϵ= 10−9. We varied the learning\nrate over the course of training, accordi",
+    "file_type": "pdf"
+  },
+  {
+    "path": "C:\\Users\\vinilm\\PycharmProjects\\TestOllama\\test_docs\\NIPS-2017-attention-is-all-you-need-Paper.pdf",
+    "chunk_index": 68,
+    "text": "g models were trained for 300,000 steps\n(3.5 days).\n5.3 Optimizer\nWe used the Adam optimizer [17] with β1 = 0.9, β2 = 0.98 and ϵ= 10−9. We varied the learning\nrate over the course of training, according to the formula:\nlrate= d−0.5\nmodel ·min(step_num−0.5,step_num·warmup_steps−1.5) (3)\nThis corresponds to increasing the learning rate linearly for the ﬁrst warmup_stepstraining steps,\nand decreasing it thereafter proportionally to the inverse square root of the step number. We used\nwarmup_steps= 4",
+    "file_type": "pdf"
+  },
+  {
+    "path": "C:\\Users\\vinilm\\PycharmProjects\\TestOllama\\test_docs\\NIPS-2017-attention-is-all-you-need-Paper.pdf",
+    "chunk_index": 69,
+    "text": "nds to increasing the learning rate linearly for the ﬁrst warmup_stepstraining steps,\nand decreasing it thereafter proportionally to the inverse square root of the step number. We used\nwarmup_steps= 4000.\n5.4 Regularization\nWe employ three types of regularization during training:\nResidual Dropout We apply dropout [27] to the output of each sub-layer, before it is added to the\nsub-layer input and normalized. In addition, we apply dropout to the sums of the embeddings and the\npositional encodings",
+    "file_type": "pdf"
+  },
+  {
+    "path": "C:\\Users\\vinilm\\PycharmProjects\\TestOllama\\test_docs\\NIPS-2017-attention-is-all-you-need-Paper.pdf",
+    "chunk_index": 70,
+    "text": "apply dropout [27] to the output of each sub-layer, before it is added to the\nsub-layer input and normalized. In addition, we apply dropout to the sums of the embeddings and the\npositional encodings in both the encoder and decoder stacks. For the base model, we use a rate of\nPdrop = 0.1.\n7\nTable 2: The Transformer achieves better BLEU scores than previous state-of-the-art models on the\nEnglish-to-German and English-to-French newstest2014 tests at a fraction of the training cost.\nModel\nBLEU Trai",
+    "file_type": "pdf"
+  },
+  {
+    "path": "C:\\Users\\vinilm\\PycharmProjects\\TestOllama\\test_docs\\NIPS-2017-attention-is-all-you-need-Paper.pdf",
+    "chunk_index": 71,
+    "text": "The Transformer achieves better BLEU scores than previous state-of-the-art models on the\nEnglish-to-German and English-to-French newstest2014 tests at a fraction of the training cost.\nModel\nBLEU Training Cost (FLOPs)\nEN-DE EN-FR EN-DE EN-FR\nByteNet [15] 23.75\nDeep-Att + PosUnk [32] 39.2 1.0 ·1020\nGNMT + RL [31] 24.6 39.92 2.3 ·1019 1.4 ·1020\nConvS2S [8] 25.16 40.46 9.6 ·1018 1.5 ·1020\nMoE [26] 26.03 40.56 2.0 ·1019 1.2 ·1020\nDeep-Att + PosUnk Ensemble [32] 40.4 8.0 ·1020\nGNMT + RL Ensemble [31]",
+    "file_type": "pdf"
+  },
+  {
+    "path": "C:\\Users\\vinilm\\PycharmProjects\\TestOllama\\test_docs\\NIPS-2017-attention-is-all-you-need-Paper.pdf",
+    "chunk_index": 72,
+    "text": "NMT + RL [31] 24.6 39.92 2.3 ·1019 1.4 ·1020\nConvS2S [8] 25.16 40.46 9.6 ·1018 1.5 ·1020\nMoE [26] 26.03 40.56 2.0 ·1019 1.2 ·1020\nDeep-Att + PosUnk Ensemble [32] 40.4 8.0 ·1020\nGNMT + RL Ensemble [31] 26.30 41.16 1.8 ·1020 1.1 ·1021\nConvS2S Ensemble [8] 26.36 41.29 7.7 ·1019 1.2 ·1021\nTransformer (base model) 27.3 38.1 3.3 · 1018\nTransformer (big) 28.4 41.0 2.3 ·1019\nLabel Smoothing During training, we employed label smoothing of value ϵls = 0.1 [30]. This\nhurts perplexity, as the model learns t",
+    "file_type": "pdf"
+  },
+  {
+    "path": "C:\\Users\\vinilm\\PycharmProjects\\TestOllama\\test_docs\\NIPS-2017-attention-is-all-you-need-Paper.pdf",
+    "chunk_index": 73,
+    "text": "ase model) 27.3 38.1 3.3 · 1018\nTransformer (big) 28.4 41.0 2.3 ·1019\nLabel Smoothing During training, we employed label smoothing of value ϵls = 0.1 [30]. This\nhurts perplexity, as the model learns to be more unsure, but improves accuracy and BLEU score.\n6 Results\n6.1 Machine Translation\nOn the WMT 2014 English-to-German translation task, the big transformer model (Transformer (big)\nin Table 2) outperforms the best previously reported models (including ensembles) by more than 2.0\nBLEU, establis",
+    "file_type": "pdf"
+  },
+  {
+    "path": "C:\\Users\\vinilm\\PycharmProjects\\TestOllama\\test_docs\\NIPS-2017-attention-is-all-you-need-Paper.pdf",
+    "chunk_index": 74,
+    "text": "2014 English-to-German translation task, the big transformer model (Transformer (big)\nin Table 2) outperforms the best previously reported models (including ensembles) by more than 2.0\nBLEU, establishing a new state-of-the-art BLEU score of 28.4. The conﬁguration of this model is\nlisted in the bottom line of Table 3. Training took 3.5 days on 8 P100 GPUs. Even our base model\nsurpasses all previously published models and ensembles, at a fraction of the training cost of any of\nthe competitive mod",
+    "file_type": "pdf"
+  },
+  {
+    "path": "C:\\Users\\vinilm\\PycharmProjects\\TestOllama\\test_docs\\NIPS-2017-attention-is-all-you-need-Paper.pdf",
+    "chunk_index": 75,
+    "text": "om line of Table 3. Training took 3.5 days on 8 P100 GPUs. Even our base model\nsurpasses all previously published models and ensembles, at a fraction of the training cost of any of\nthe competitive models.\nOn the WMT 2014 English-to-French translation task, our big model achieves a BLEU score of 41.0,\noutperforming all of the previously published single models, at less than 1/4 the training cost of the\nprevious state-of-the-art model. The Transformer (big) model trained for English-to-French used",
+    "file_type": "pdf"
+  },
+  {
+    "path": "C:\\Users\\vinilm\\PycharmProjects\\TestOllama\\test_docs\\NIPS-2017-attention-is-all-you-need-Paper.pdf",
+    "chunk_index": 76,
+    "text": ",\noutperforming all of the previously published single models, at less than 1/4 the training cost of the\nprevious state-of-the-art model. The Transformer (big) model trained for English-to-French used\ndropout rate Pdrop = 0.1, instead of 0.3.\nFor the base models, we used a single model obtained by averaging the last 5 checkpoints, which\nwere written at 10-minute intervals. For the big models, we averaged the last 20 checkpoints. We\nused beam search with a beam size of 4 and length penalty α= 0.6",
+    "file_type": "pdf"
+  },
+  {
+    "path": "C:\\Users\\vinilm\\PycharmProjects\\TestOllama\\test_docs\\NIPS-2017-attention-is-all-you-need-Paper.pdf",
+    "chunk_index": 77,
+    "text": "veraging the last 5 checkpoints, which\nwere written at 10-minute intervals. For the big models, we averaged the last 20 checkpoints. We\nused beam search with a beam size of 4 and length penalty α= 0.6 [31]. These hyperparameters\nwere chosen after experimentation on the development set. We set the maximum output length during\ninference to input length + 50, but terminate early when possible [31].\nTable 2 summarizes our results and compares our translation quality and training costs to other model",
+    "file_type": "pdf"
+  },
+  {
+    "path": "C:\\Users\\vinilm\\PycharmProjects\\TestOllama\\test_docs\\NIPS-2017-attention-is-all-you-need-Paper.pdf",
+    "chunk_index": 78,
+    "text": "ximum output length during\ninference to input length + 50, but terminate early when possible [31].\nTable 2 summarizes our results and compares our translation quality and training costs to other model\narchitectures from the literature. We estimate the number of ﬂoating point operations used to train a\nmodel by multiplying the training time, the number of GPUs used, and an estimate of the sustained\nsingle-precision ﬂoating-point capacity of each GPU 5.\n6.2 Model Variations\nTo evaluate the importa",
+    "file_type": "pdf"
+  },
+  {
+    "path": "C:\\Users\\vinilm\\PycharmProjects\\TestOllama\\test_docs\\NIPS-2017-attention-is-all-you-need-Paper.pdf",
+    "chunk_index": 79,
+    "text": "a\nmodel by multiplying the training time, the number of GPUs used, and an estimate of the sustained\nsingle-precision ﬂoating-point capacity of each GPU 5.\n6.2 Model Variations\nTo evaluate the importance of different components of the Transformer, we varied our base model\nin different ways, measuring the change in performance on English-to-German translation on the\ndevelopment set, newstest2013. We used beam search as described in the previous section, but no\ncheckpoint averaging. We present the",
+    "file_type": "pdf"
+  },
+  {
+    "path": "C:\\Users\\vinilm\\PycharmProjects\\TestOllama\\test_docs\\NIPS-2017-attention-is-all-you-need-Paper.pdf",
+    "chunk_index": 80,
+    "text": "g the change in performance on English-to-German translation on the\ndevelopment set, newstest2013. We used beam search as described in the previous section, but no\ncheckpoint averaging. We present these results in Table 3.\nIn Table 3 rows (A), we vary the number of attention heads and the attention key and value dimensions,\nkeeping the amount of computation constant, as described in Section 3.2.2. While single-head\nattention is 0.9 BLEU worse than the best setting, quality also drops off with to",
+    "file_type": "pdf"
+  },
+  {
+    "path": "C:\\Users\\vinilm\\PycharmProjects\\TestOllama\\test_docs\\NIPS-2017-attention-is-all-you-need-Paper.pdf",
+    "chunk_index": 81,
+    "text": "key and value dimensions,\nkeeping the amount of computation constant, as described in Section 3.2.2. While single-head\nattention is 0.9 BLEU worse than the best setting, quality also drops off with too many heads.\n5We used values of 2.8, 3.7, 6.0 and 9.5 TFLOPS for K80, K40, M40 and P100, respectively.\n8\nTable 3: Variations on the Transformer architecture. Unlisted values are identical to those of the base\nmodel. All metrics are on the English-to-German translation development set, newstest2013.",
+    "file_type": "pdf"
+  },
+  {
+    "path": "C:\\Users\\vinilm\\PycharmProjects\\TestOllama\\test_docs\\NIPS-2017-attention-is-all-you-need-Paper.pdf",
+    "chunk_index": 82,
+    "text": "ly.\n8\nTable 3: Variations on the Transformer architecture. Unlisted values are identical to those of the base\nmodel. All metrics are on the English-to-German translation development set, newstest2013. Listed\nperplexities are per-wordpiece, according to our byte-pair encoding, and should not be compared to\nper-word perplexities.\nN d model dff h d k dv Pdrop ϵls\ntrain PPL BLEU params\nsteps (dev) (dev) ×106\nbase 6 512 2048 8 64 64 0.1 0.1 100K 4.92 25.8 65\n(A)\n1 512 512 5.29 24.9\n4 128 128 5.00 25.",
+    "file_type": "pdf"
+  },
+  {
+    "path": "C:\\Users\\vinilm\\PycharmProjects\\TestOllama\\test_docs\\NIPS-2017-attention-is-all-you-need-Paper.pdf",
+    "chunk_index": 83,
+    "text": "red to\nper-word perplexities.\nN d model dff h d k dv Pdrop ϵls\ntrain PPL BLEU params\nsteps (dev) (dev) ×106\nbase 6 512 2048 8 64 64 0.1 0.1 100K 4.92 25.8 65\n(A)\n1 512 512 5.29 24.9\n4 128 128 5.00 25.5\n16 32 32 4.91 25.8\n32 16 16 5.01 25.4\n(B) 16 5.16 25.1 58\n32 5.01 25.4 60\n(C)\n2 6.11 23.7 36\n4 5.19 25.3 50\n8 4.88 25.5 80\n256 32 32 5.75 24.5 28\n1024 128 128 4.66 26.0 168\n1024 5.12 25.4 53\n4096 4.75 26.2 90\n(D)\n0.0 5.77 24.6\n0.2 4.95 25.5\n0.0 4.67 25.3\n0.2 5.47 25.7\n(E) positional embedding inst",
+    "file_type": "pdf"
+  },
+  {
+    "path": "C:\\Users\\vinilm\\PycharmProjects\\TestOllama\\test_docs\\NIPS-2017-attention-is-all-you-need-Paper.pdf",
+    "chunk_index": 84,
+    "text": "9 25.3 50\n8 4.88 25.5 80\n256 32 32 5.75 24.5 28\n1024 128 128 4.66 26.0 168\n1024 5.12 25.4 53\n4096 4.75 26.2 90\n(D)\n0.0 5.77 24.6\n0.2 4.95 25.5\n0.0 4.67 25.3\n0.2 5.47 25.7\n(E) positional embedding instead of sinusoids 4.92 25.7\nbig 6 1024 4096 16 0.3 300K 4.33 26.4 213\nIn Table 3 rows (B), we observe that reducing the attention key size dk hurts model quality. This\nsuggests that determining compatibility is not easy and that a more sophisticated compatibility\nfunction than dot product may be bene",
+    "file_type": "pdf"
+  },
+  {
+    "path": "C:\\Users\\vinilm\\PycharmProjects\\TestOllama\\test_docs\\NIPS-2017-attention-is-all-you-need-Paper.pdf",
+    "chunk_index": 85,
+    "text": "that reducing the attention key size dk hurts model quality. This\nsuggests that determining compatibility is not easy and that a more sophisticated compatibility\nfunction than dot product may be beneﬁcial. We further observe in rows (C) and (D) that, as expected,\nbigger models are better, and dropout is very helpful in avoiding over-ﬁtting. In row (E) we replace our\nsinusoidal positional encoding with learned positional embeddings [8], and observe nearly identical\nresults to the base model.\n7 C",
+    "file_type": "pdf"
+  },
+  {
+    "path": "C:\\Users\\vinilm\\PycharmProjects\\TestOllama\\test_docs\\NIPS-2017-attention-is-all-you-need-Paper.pdf",
+    "chunk_index": 86,
+    "text": "ut is very helpful in avoiding over-ﬁtting. In row (E) we replace our\nsinusoidal positional encoding with learned positional embeddings [8], and observe nearly identical\nresults to the base model.\n7 Conclusion\nIn this work, we presented the Transformer, the ﬁrst sequence transduction model based entirely on\nattention, replacing the recurrent layers most commonly used in encoder-decoder architectures with\nmulti-headed self-attention.\nFor translation tasks, the Transformer can be trained signiﬁcan",
+    "file_type": "pdf"
+  },
+  {
+    "path": "C:\\Users\\vinilm\\PycharmProjects\\TestOllama\\test_docs\\NIPS-2017-attention-is-all-you-need-Paper.pdf",
+    "chunk_index": 87,
+    "text": "irely on\nattention, replacing the recurrent layers most commonly used in encoder-decoder architectures with\nmulti-headed self-attention.\nFor translation tasks, the Transformer can be trained signiﬁcantly faster than architectures based\non recurrent or convolutional layers. On both WMT 2014 English-to-German and WMT 2014\nEnglish-to-French translation tasks, we achieve a new state of the art. In the former task our best\nmodel outperforms even all previously reported ensembles.\nWe are excited about",
+    "file_type": "pdf"
+  },
+  {
+    "path": "C:\\Users\\vinilm\\PycharmProjects\\TestOllama\\test_docs\\NIPS-2017-attention-is-all-you-need-Paper.pdf",
+    "chunk_index": 88,
+    "text": "o-German and WMT 2014\nEnglish-to-French translation tasks, we achieve a new state of the art. In the former task our best\nmodel outperforms even all previously reported ensembles.\nWe are excited about the future of attention-based models and plan to apply them to other tasks. We\nplan to extend the Transformer to problems involving input and output modalities other than text and\nto investigate local, restricted attention mechanisms to efﬁciently handle large inputs and outputs\nsuch as images, aud",
+    "file_type": "pdf"
+  },
+  {
+    "path": "C:\\Users\\vinilm\\PycharmProjects\\TestOllama\\test_docs\\NIPS-2017-attention-is-all-you-need-Paper.pdf",
+    "chunk_index": 89,
+    "text": "ransformer to problems involving input and output modalities other than text and\nto investigate local, restricted attention mechanisms to efﬁciently handle large inputs and outputs\nsuch as images, audio and video. Making generation less sequential is another research goals of ours.\nThe code we used to train and evaluate our models is available at https://github.com/\ntensorflow/tensor2tensor.\nAcknowledgements We are grateful to Nal Kalchbrenner and Stephan Gouws for their fruitful\ncomments, corre",
+    "file_type": "pdf"
+  },
+  {
+    "path": "C:\\Users\\vinilm\\PycharmProjects\\TestOllama\\test_docs\\NIPS-2017-attention-is-all-you-need-Paper.pdf",
+    "chunk_index": 90,
+    "text": "to train and evaluate our models is available at https://github.com/\ntensorflow/tensor2tensor.\nAcknowledgements We are grateful to Nal Kalchbrenner and Stephan Gouws for their fruitful\ncomments, corrections and inspiration.\n9\nReferences\n[1] Jimmy Lei Ba, Jamie Ryan Kiros, and Geoffrey E Hinton. Layer normalization. arXiv preprint\narXiv:1607.06450, 2016.\n[2] Dzmitry Bahdanau, Kyunghyun Cho, and Yoshua Bengio. Neural machine translation by jointly\nlearning to align and translate. CoRR, abs/1409.04",
+    "file_type": "pdf"
+  },
+  {
+    "path": "C:\\Users\\vinilm\\PycharmProjects\\TestOllama\\test_docs\\NIPS-2017-attention-is-all-you-need-Paper.pdf",
+    "chunk_index": 91,
+    "text": "r normalization. arXiv preprint\narXiv:1607.06450, 2016.\n[2] Dzmitry Bahdanau, Kyunghyun Cho, and Yoshua Bengio. Neural machine translation by jointly\nlearning to align and translate. CoRR, abs/1409.0473, 2014.\n[3] Denny Britz, Anna Goldie, Minh-Thang Luong, and Quoc V . Le. Massive exploration of neural\nmachine translation architectures. CoRR, abs/1703.03906, 2017.\n[4] Jianpeng Cheng, Li Dong, and Mirella Lapata. Long short-term memory-networks for machine\nreading. arXiv preprint arXiv:1601.0673",
+    "file_type": "pdf"
+  },
+  {
+    "path": "C:\\Users\\vinilm\\PycharmProjects\\TestOllama\\test_docs\\NIPS-2017-attention-is-all-you-need-Paper.pdf",
+    "chunk_index": 92,
+    "text": "ural\nmachine translation architectures. CoRR, abs/1703.03906, 2017.\n[4] Jianpeng Cheng, Li Dong, and Mirella Lapata. Long short-term memory-networks for machine\nreading. arXiv preprint arXiv:1601.06733, 2016.\n[5] Kyunghyun Cho, Bart van Merrienboer, Caglar Gulcehre, Fethi Bougares, Holger Schwenk,\nand Yoshua Bengio. Learning phrase representations using rnn encoder-decoder for statistical\nmachine translation. CoRR, abs/1406.1078, 2014.\n[6] Francois Chollet. Xception: Deep learning with depthwise",
+    "file_type": "pdf"
+  },
+  {
+    "path": "C:\\Users\\vinilm\\PycharmProjects\\TestOllama\\test_docs\\NIPS-2017-attention-is-all-you-need-Paper.pdf",
+    "chunk_index": 93,
+    "text": "nd Yoshua Bengio. Learning phrase representations using rnn encoder-decoder for statistical\nmachine translation. CoRR, abs/1406.1078, 2014.\n[6] Francois Chollet. Xception: Deep learning with depthwise separable convolutions. arXiv\npreprint arXiv:1610.02357, 2016.\n[7] Junyoung Chung, Çaglar Gülçehre, Kyunghyun Cho, and Yoshua Bengio. Empirical evaluation\nof gated recurrent neural networks on sequence modeling. CoRR, abs/1412.3555, 2014.\n[8] Jonas Gehring, Michael Auli, David Grangier, Denis Yarat",
+    "file_type": "pdf"
+  },
+  {
+    "path": "C:\\Users\\vinilm\\PycharmProjects\\TestOllama\\test_docs\\NIPS-2017-attention-is-all-you-need-Paper.pdf",
+    "chunk_index": 94,
+    "text": "Kyunghyun Cho, and Yoshua Bengio. Empirical evaluation\nof gated recurrent neural networks on sequence modeling. CoRR, abs/1412.3555, 2014.\n[8] Jonas Gehring, Michael Auli, David Grangier, Denis Yarats, and Yann N. Dauphin. Convolu-\ntional sequence to sequence learning. arXiv preprint arXiv:1705.03122v2, 2017.\n[9] Alex Graves. Generating sequences with recurrent neural networks. arXiv preprint\narXiv:1308.0850, 2013.\n[10] Kaiming He, Xiangyu Zhang, Shaoqing Ren, and Jian Sun. Deep residual learni",
+    "file_type": "pdf"
+  },
+  {
+    "path": "C:\\Users\\vinilm\\PycharmProjects\\TestOllama\\test_docs\\NIPS-2017-attention-is-all-you-need-Paper.pdf",
+    "chunk_index": 95,
+    "text": "22v2, 2017.\n[9] Alex Graves. Generating sequences with recurrent neural networks. arXiv preprint\narXiv:1308.0850, 2013.\n[10] Kaiming He, Xiangyu Zhang, Shaoqing Ren, and Jian Sun. Deep residual learning for im-\nage recognition. In Proceedings of the IEEE Conference on Computer Vision and Pattern\nRecognition, pages 770–778, 2016.\n[11] Sepp Hochreiter, Yoshua Bengio, Paolo Frasconi, and Jürgen Schmidhuber. Gradient ﬂow in\nrecurrent nets: the difﬁculty of learning long-term dependencies, 2001.\n[12]",
+    "file_type": "pdf"
+  },
+  {
+    "path": "C:\\Users\\vinilm\\PycharmProjects\\TestOllama\\test_docs\\NIPS-2017-attention-is-all-you-need-Paper.pdf",
+    "chunk_index": 96,
+    "text": "ognition, pages 770–778, 2016.\n[11] Sepp Hochreiter, Yoshua Bengio, Paolo Frasconi, and Jürgen Schmidhuber. Gradient ﬂow in\nrecurrent nets: the difﬁculty of learning long-term dependencies, 2001.\n[12] Sepp Hochreiter and Jürgen Schmidhuber. Long short-term memory. Neural computation,\n9(8):1735–1780, 1997.\n[13] Rafal Jozefowicz, Oriol Vinyals, Mike Schuster, Noam Shazeer, and Yonghui Wu. Exploring\nthe limits of language modeling. arXiv preprint arXiv:1602.02410, 2016.\n[14] Łukasz Kaiser and Ilya",
+    "file_type": "pdf"
+  },
+  {
+    "path": "C:\\Users\\vinilm\\PycharmProjects\\TestOllama\\test_docs\\NIPS-2017-attention-is-all-you-need-Paper.pdf",
+    "chunk_index": 97,
+    "text": "1997.\n[13] Rafal Jozefowicz, Oriol Vinyals, Mike Schuster, Noam Shazeer, and Yonghui Wu. Exploring\nthe limits of language modeling. arXiv preprint arXiv:1602.02410, 2016.\n[14] Łukasz Kaiser and Ilya Sutskever. Neural GPUs learn algorithms. In International Conference\non Learning Representations (ICLR), 2016.\n[15] Nal Kalchbrenner, Lasse Espeholt, Karen Simonyan, Aaron van den Oord, Alex Graves, and Ko-\nray Kavukcuoglu. Neural machine translation in linear time.arXiv preprint arXiv:1610.10099v2,",
+    "file_type": "pdf"
+  },
+  {
+    "path": "C:\\Users\\vinilm\\PycharmProjects\\TestOllama\\test_docs\\NIPS-2017-attention-is-all-you-need-Paper.pdf",
+    "chunk_index": 98,
+    "text": "LR), 2016.\n[15] Nal Kalchbrenner, Lasse Espeholt, Karen Simonyan, Aaron van den Oord, Alex Graves, and Ko-\nray Kavukcuoglu. Neural machine translation in linear time.arXiv preprint arXiv:1610.10099v2,\n2017.\n[16] Yoon Kim, Carl Denton, Luong Hoang, and Alexander M. Rush. Structured attention networks.\nIn International Conference on Learning Representations, 2017.\n[17] Diederik Kingma and Jimmy Ba. Adam: A method for stochastic optimization. In ICLR, 2015.\n[18] Oleksii Kuchaiev and Boris Ginsburg.",
+    "file_type": "pdf"
+  },
+  {
+    "path": "C:\\Users\\vinilm\\PycharmProjects\\TestOllama\\test_docs\\NIPS-2017-attention-is-all-you-need-Paper.pdf",
+    "chunk_index": 99,
+    "text": ".\nIn International Conference on Learning Representations, 2017.\n[17] Diederik Kingma and Jimmy Ba. Adam: A method for stochastic optimization. In ICLR, 2015.\n[18] Oleksii Kuchaiev and Boris Ginsburg. Factorization tricks for LSTM networks. arXiv preprint\narXiv:1703.10722, 2017.\n[19] Zhouhan Lin, Minwei Feng, Cicero Nogueira dos Santos, Mo Yu, Bing Xiang, Bowen\nZhou, and Yoshua Bengio. A structured self-attentive sentence embedding. arXiv preprint\narXiv:1703.03130, 2017.\n[20] Samy Bengio Łukasz",
+    "file_type": "pdf"
+  },
+  {
+    "path": "C:\\Users\\vinilm\\PycharmProjects\\TestOllama\\test_docs\\NIPS-2017-attention-is-all-you-need-Paper.pdf",
+    "chunk_index": 100,
+    "text": "nwei Feng, Cicero Nogueira dos Santos, Mo Yu, Bing Xiang, Bowen\nZhou, and Yoshua Bengio. A structured self-attentive sentence embedding. arXiv preprint\narXiv:1703.03130, 2017.\n[20] Samy Bengio Łukasz Kaiser. Can active memory replace attention? In Advances in Neural\nInformation Processing Systems, (NIPS), 2016.\n10\n[21] Minh-Thang Luong, Hieu Pham, and Christopher D Manning. Effective approaches to attention-\nbased neural machine translation. arXiv preprint arXiv:1508.04025, 2015.\n[22] Ankur Pari",
+    "file_type": "pdf"
+  },
+  {
+    "path": "C:\\Users\\vinilm\\PycharmProjects\\TestOllama\\test_docs\\NIPS-2017-attention-is-all-you-need-Paper.pdf",
+    "chunk_index": 101,
+    "text": "NIPS), 2016.\n10\n[21] Minh-Thang Luong, Hieu Pham, and Christopher D Manning. Effective approaches to attention-\nbased neural machine translation. arXiv preprint arXiv:1508.04025, 2015.\n[22] Ankur Parikh, Oscar Täckström, Dipanjan Das, and Jakob Uszkoreit. A decomposable attention\nmodel. In Empirical Methods in Natural Language Processing, 2016.\n[23] Romain Paulus, Caiming Xiong, and Richard Socher. A deep reinforced model for abstractive\nsummarization. arXiv preprint arXiv:1705.04304, 2017.\n[24]",
+    "file_type": "pdf"
+  },
+  {
+    "path": "C:\\Users\\vinilm\\PycharmProjects\\TestOllama\\test_docs\\NIPS-2017-attention-is-all-you-need-Paper.pdf",
+    "chunk_index": 102,
+    "text": "Methods in Natural Language Processing, 2016.\n[23] Romain Paulus, Caiming Xiong, and Richard Socher. A deep reinforced model for abstractive\nsummarization. arXiv preprint arXiv:1705.04304, 2017.\n[24] Oﬁr Press and Lior Wolf. Using the output embedding to improve language models. arXiv\npreprint arXiv:1608.05859, 2016.\n[25] Rico Sennrich, Barry Haddow, and Alexandra Birch. Neural machine translation of rare words\nwith subword units. arXiv preprint arXiv:1508.07909, 2015.\n[26] Noam Shazeer, Azalia",
+    "file_type": "pdf"
+  },
+  {
+    "path": "C:\\Users\\vinilm\\PycharmProjects\\TestOllama\\test_docs\\NIPS-2017-attention-is-all-you-need-Paper.pdf",
+    "chunk_index": 103,
+    "text": "v:1608.05859, 2016.\n[25] Rico Sennrich, Barry Haddow, and Alexandra Birch. Neural machine translation of rare words\nwith subword units. arXiv preprint arXiv:1508.07909, 2015.\n[26] Noam Shazeer, Azalia Mirhoseini, Krzysztof Maziarz, Andy Davis, Quoc Le, Geoffrey Hinton,\nand Jeff Dean. Outrageously large neural networks: The sparsely-gated mixture-of-experts\nlayer. arXiv preprint arXiv:1701.06538, 2017.\n[27] Nitish Srivastava, Geoffrey E Hinton, Alex Krizhevsky, Ilya Sutskever, and Ruslan Salakhut",
+    "file_type": "pdf"
+  },
+  {
+    "path": "C:\\Users\\vinilm\\PycharmProjects\\TestOllama\\test_docs\\NIPS-2017-attention-is-all-you-need-Paper.pdf",
+    "chunk_index": 104,
+    "text": "rge neural networks: The sparsely-gated mixture-of-experts\nlayer. arXiv preprint arXiv:1701.06538, 2017.\n[27] Nitish Srivastava, Geoffrey E Hinton, Alex Krizhevsky, Ilya Sutskever, and Ruslan Salakhutdi-\nnov. Dropout: a simple way to prevent neural networks from overﬁtting. Journal of Machine\nLearning Research, 15(1):1929–1958, 2014.\n[28] Sainbayar Sukhbaatar, arthur szlam, Jason Weston, and Rob Fergus. End-to-end memory\nnetworks. In C. Cortes, N. D. Lawrence, D. D. Lee, M. Sugiyama, and R. Garn",
+    "file_type": "pdf"
+  },
+  {
+    "path": "C:\\Users\\vinilm\\PycharmProjects\\TestOllama\\test_docs\\NIPS-2017-attention-is-all-you-need-Paper.pdf",
+    "chunk_index": 105,
+    "text": "ng Research, 15(1):1929–1958, 2014.\n[28] Sainbayar Sukhbaatar, arthur szlam, Jason Weston, and Rob Fergus. End-to-end memory\nnetworks. In C. Cortes, N. D. Lawrence, D. D. Lee, M. Sugiyama, and R. Garnett, editors,\nAdvances in Neural Information Processing Systems 28, pages 2440–2448. Curran Associates,\nInc., 2015.\n[29] Ilya Sutskever, Oriol Vinyals, and Quoc VV Le. Sequence to sequence learning with neural\nnetworks. In Advances in Neural Information Processing Systems, pages 3104–3112, 2014.\n[30",
+    "file_type": "pdf"
+  },
+  {
+    "path": "C:\\Users\\vinilm\\PycharmProjects\\TestOllama\\test_docs\\NIPS-2017-attention-is-all-you-need-Paper.pdf",
+    "chunk_index": 106,
+    "text": "es,\nInc., 2015.\n[29] Ilya Sutskever, Oriol Vinyals, and Quoc VV Le. Sequence to sequence learning with neural\nnetworks. In Advances in Neural Information Processing Systems, pages 3104–3112, 2014.\n[30] Christian Szegedy, Vincent Vanhoucke, Sergey Ioffe, Jonathon Shlens, and Zbigniew Wojna.\nRethinking the inception architecture for computer vision. CoRR, abs/1512.00567, 2015.\n[31] Yonghui Wu, Mike Schuster, Zhifeng Chen, Quoc V Le, Mohammad Norouzi, Wolfgang\nMacherey, Maxim Krikun, Yuan Cao, Qin",
+    "file_type": "pdf"
+  },
+  {
+    "path": "C:\\Users\\vinilm\\PycharmProjects\\TestOllama\\test_docs\\NIPS-2017-attention-is-all-you-need-Paper.pdf",
+    "chunk_index": 107,
+    "text": "g the inception architecture for computer vision. CoRR, abs/1512.00567, 2015.\n[31] Yonghui Wu, Mike Schuster, Zhifeng Chen, Quoc V Le, Mohammad Norouzi, Wolfgang\nMacherey, Maxim Krikun, Yuan Cao, Qin Gao, Klaus Macherey, et al. Google’s neural machine\ntranslation system: Bridging the gap between human and machine translation. arXiv preprint\narXiv:1609.08144, 2016.\n[32] Jie Zhou, Ying Cao, Xuguang Wang, Peng Li, and Wei Xu. Deep recurrent models with\nfast-forward connections for neural machine tr",
+    "file_type": "pdf"
+  },
+  {
+    "path": "C:\\Users\\vinilm\\PycharmProjects\\TestOllama\\test_docs\\NIPS-2017-attention-is-all-you-need-Paper.pdf",
+    "chunk_index": 108,
+    "text": "an and machine translation. arXiv preprint\narXiv:1609.08144, 2016.\n[32] Jie Zhou, Ying Cao, Xuguang Wang, Peng Li, and Wei Xu. Deep recurrent models with\nfast-forward connections for neural machine translation. CoRR, abs/1606.04199, 2016.\n11",
+    "file_type": "pdf"
+  },
+  {
+    "path": "C:\\Users\\vinilm\\PycharmProjects\\TestOllama\\test_docs\\RAG.pdf",
+    "chunk_index": 0,
+    "text": "Study Materials: RAG\nSummary\nIntroduction to Retrieval-Augmented Generation (RAG) Retrieval-Augmented Generation (RAG) is a powerful\nframework designed to enhance the capabilities of Large Language Models (LLMs) by grounding their\nresponses in external, factual, and up-to-date information. Traditional LLMs are trained on vast datasets but\ncan suffer from \"hallucinations\" (generating factually incorrect or nonsensical information) and are limited by\ntheir static training data. RAG addresses these",
+    "file_type": "pdf"
+  },
+  {
+    "path": "C:\\Users\\vinilm\\PycharmProjects\\TestOllama\\test_docs\\RAG.pdf",
+    "chunk_index": 1,
+    "text": "al LLMs are trained on vast datasets but\ncan suffer from \"hallucinations\" (generating factually incorrect or nonsensical information) and are limited by\ntheir static training data. RAG addresses these issues by enabling LLMs to access and incorporate relevant\ninformation from a designated knowledge base in real-time, significantly improving the accuracy, relevance,\nand trustworthiness of their outputs. It essentially gives the LLM an open-book exam, rather than relying\nsolely on its memory. ###",
+    "file_type": "pdf"
+  },
+  {
+    "path": "C:\\Users\\vinilm\\PycharmProjects\\TestOllama\\test_docs\\RAG.pdf",
+    "chunk_index": 2,
+    "text": "base in real-time, significantly improving the accuracy, relevance,\nand trustworthiness of their outputs. It essentially gives the LLM an open-book exam, rather than relying\nsolely on its memory. ### How RAG Works The RAG process typically involves two main phases: Retrieval\nand Generation. 1.  Retrieval Phase: When a user poses a query, the RAG system first searches a vast,\nindexed knowledge base (often a collection of documents, articles, or databases) for information relevant to\nthat query. T",
+    "file_type": "pdf"
+  },
+  {
+    "path": "C:\\Users\\vinilm\\PycharmProjects\\TestOllama\\test_docs\\RAG.pdf",
+    "chunk_index": 3,
+    "text": "ieval Phase: When a user poses a query, the RAG system first searches a vast,\nindexed knowledge base (often a collection of documents, articles, or databases) for information relevant to\nthat query. This knowledge base is usually pre-processed by splitting documents into smaller chunks and\nconverting them into numerical representations called embeddings using an embedding model. These\nembeddings are then stored in a vector database. When a query comes in, it's also converted into an\nembedding, a",
+    "file_type": "pdf"
+  },
+  {
+    "path": "C:\\Users\\vinilm\\PycharmProjects\\TestOllama\\test_docs\\RAG.pdf",
+    "chunk_index": 4,
+    "text": "g them into numerical representations called embeddings using an embedding model. These\nembeddings are then stored in a vector database. When a query comes in, it's also converted into an\nembedding, and a similarity search is performed in the vector database to find the most relevant chunks of\ninformation. 2.  Generation Phase: The retrieved chunks of information are then provided to the LLM along\nwith the original user query. The LLM uses this augmented prompt as context to generate a coherent,",
+    "file_type": "pdf"
+  },
+  {
+    "path": "C:\\Users\\vinilm\\PycharmProjects\\TestOllama\\test_docs\\RAG.pdf",
+    "chunk_index": 5,
+    "text": "mation. 2.  Generation Phase: The retrieved chunks of information are then provided to the LLM along\nwith the original user query. The LLM uses this augmented prompt as context to generate a coherent, factual,\nand relevant response. This process ensures that the LLM's answer is grounded in the provided external\ndata, rather than solely relying on its internal parametric knowledge. ### Benefits and Challenges of RAG\nBenefits: RAG offers several significant advantages. It helps reduce hallucinatio",
+    "file_type": "pdf"
+  },
+  {
+    "path": "C:\\Users\\vinilm\\PycharmProjects\\TestOllama\\test_docs\\RAG.pdf",
+    "chunk_index": 6,
+    "text": "ded external\ndata, rather than solely relying on its internal parametric knowledge. ### Benefits and Challenges of RAG\nBenefits: RAG offers several significant advantages. It helps reduce hallucinations by providing factual\ngrounding, ensures responses are up-to-date by allowing the knowledge base to be updated frequently,\nenables LLMs to answer domain-specific questions without extensive fine-tuning, and can improve\nexplainability as the source documents can often be referenced. It also allows",
+    "file_type": "pdf"
+  },
+  {
+    "path": "C:\\Users\\vinilm\\PycharmProjects\\TestOllama\\test_docs\\RAG.pdf",
+    "chunk_index": 7,
+    "text": "o be updated frequently,\nenables LLMs to answer domain-specific questions without extensive fine-tuning, and can improve\nexplainability as the source documents can often be referenced. It also allows for more cost-effective\ndeployment compared to constantly re-training or fine-tuning large LLMs for new information. Challenges:\nDespite its benefits, RAG implementations face challenges. The quality of retrieval is crucial; if irrelevant or\npoor-quality information is retrieved, the LLM's output wi",
+    "file_type": "pdf"
+  },
+  {
+    "path": "C:\\Users\\vinilm\\PycharmProjects\\TestOllama\\test_docs\\RAG.pdf",
+    "chunk_index": 8,
+    "text": "new information. Challenges:\nDespite its benefits, RAG implementations face challenges. The quality of retrieval is crucial; if irrelevant or\npoor-quality information is retrieved, the LLM's output will suffer. Managing and maintaining large, constantly\nupdating knowledge bases can be complex and expensive, involving efficient chunking strategies, embedding\nmodel selection, and vector database management. Latency can also be an issue if the retrieval process is\nslow, impacting user experience. F",
+    "file_type": "pdf"
+  },
+  {
+    "path": "C:\\Users\\vinilm\\PycharmProjects\\TestOllama\\test_docs\\RAG.pdf",
+    "chunk_index": 9,
+    "text": "pensive, involving efficient chunking strategies, embedding\nmodel selection, and vector database management. Latency can also be an issue if the retrieval process is\nslow, impacting user experience. Furthermore, the context window limits of LLMs can restrict how much\nretrieved information can be effectively passed to the generation model.\nFlashcards\nTerm Definition\nRetrieval-Augmented\nGeneration (RAG)\nA framework that enhances LLMs by allowing them to retrieve relevant information from an\nextern",
+    "file_type": "pdf"
+  },
+  {
+    "path": "C:\\Users\\vinilm\\PycharmProjects\\TestOllama\\test_docs\\RAG.pdf",
+    "chunk_index": 10,
+    "text": "ectively passed to the generation model.\nFlashcards\nTerm Definition\nRetrieval-Augmented\nGeneration (RAG)\nA framework that enhances LLMs by allowing them to retrieve relevant information from an\nexternal knowledge base to ground their responses, reducing hallucinations and providing\nup-to-date answers.\nHallucination (LLM)When a Large Language Model generates factually incorrect, nonsensical, or made-up\ninformation despite sounding confident.\nVector Database A type of database optimized for storin",
+    "file_type": "pdf"
+  },
+  {
+    "path": "C:\\Users\\vinilm\\PycharmProjects\\TestOllama\\test_docs\\RAG.pdf",
+    "chunk_index": 11,
+    "text": "s.\nHallucination (LLM)When a Large Language Model generates factually incorrect, nonsensical, or made-up\ninformation despite sounding confident.\nVector Database A type of database optimized for storing and querying vector embeddings, enabling efficient\nsimilarity searches for relevant information.\nEmbeddings Numerical representations (vectors) of text, images, or other data, capturing semantic\nmeaning such that similar items have closer vector representations.\nSimilarity Search The process of fi",
+    "file_type": "pdf"
+  },
+  {
+    "path": "C:\\Users\\vinilm\\PycharmProjects\\TestOllama\\test_docs\\RAG.pdf",
+    "chunk_index": 12,
+    "text": "mbeddings Numerical representations (vectors) of text, images, or other data, capturing semantic\nmeaning such that similar items have closer vector representations.\nSimilarity Search The process of finding data points (e.g., text chunks) in a vector database whose\nembeddings are most similar to a given query's embedding.\nTerm Definition\nRetrieval Phase\n(RAG)\nThe initial stage of RAG where relevant documents or data chunks are retrieved from a\nknowledge base based on the user's query.\nGeneration",
+    "file_type": "pdf"
+  },
+  {
+    "path": "C:\\Users\\vinilm\\PycharmProjects\\TestOllama\\test_docs\\RAG.pdf",
+    "chunk_index": 13,
+    "text": "ven query's embedding.\nTerm Definition\nRetrieval Phase\n(RAG)\nThe initial stage of RAG where relevant documents or data chunks are retrieved from a\nknowledge base based on the user's query.\nGeneration Phase\n(RAG)\nThe second stage of RAG where a Large Language Model uses the retrieved information,\nalong with the original query, to generate a coherent and informed response.\nGrounding (LLM) The act of connecting an LLM's output to factual, external information or real-world data,\nensuring its respon",
+    "file_type": "pdf"
+  },
+  {
+    "path": "C:\\Users\\vinilm\\PycharmProjects\\TestOllama\\test_docs\\RAG.pdf",
+    "chunk_index": 14,
+    "text": "ng with the original query, to generate a coherent and informed response.\nGrounding (LLM) The act of connecting an LLM's output to factual, external information or real-world data,\nensuring its responses are accurate and verifiable.\nChunking The process of splitting large documents or texts into smaller, manageable segments or\n'chunks' before converting them into embeddings for a knowledge base.\nKnowledge Base A repository of structured or unstructured data (documents, articles, FAQs, etc.) that",
+    "file_type": "pdf"
+  },
+  {
+    "path": "C:\\Users\\vinilm\\PycharmProjects\\TestOllama\\test_docs\\RAG.pdf",
+    "chunk_index": 15,
+    "text": "ller, manageable segments or\n'chunks' before converting them into embeddings for a knowledge base.\nKnowledge Base A repository of structured or unstructured data (documents, articles, FAQs, etc.) that the\nRAG system uses as its source of external information.\nEmbedding Model A machine learning model used to convert text or other data into dense vector embeddings.\nContext Window The maximum number of tokens (words or sub-words) an LLM can process or 'remember'\nat one time, including both the inpu",
+    "file_type": "pdf"
+  },
+  {
+    "path": "C:\\Users\\vinilm\\PycharmProjects\\TestOllama\\test_docs\\RAG.pdf",
+    "chunk_index": 16,
+    "text": "used to convert text or other data into dense vector embeddings.\nContext Window The maximum number of tokens (words or sub-words) an LLM can process or 'remember'\nat one time, including both the input prompt and retrieved context.\nAugmented Prompt A prompt for an LLM that includes not only the user's original query but also relevant\ninformation retrieved from an external knowledge base.\nQuiz\n1. What is the primary goal of Retrieval-Augmented Generation (RAG)?\n- To train larger language models f",
+    "file_type": "pdf"
+  },
+  {
+    "path": "C:\\Users\\vinilm\\PycharmProjects\\TestOllama\\test_docs\\RAG.pdf",
+    "chunk_index": 17,
+    "text": "'s original query but also relevant\ninformation retrieved from an external knowledge base.\nQuiz\n1. What is the primary goal of Retrieval-Augmented Generation (RAG)?\n- To train larger language models faster.\n- To enable LLMs to generate more creative stories.\n- To ground LLM responses in external, factual information.\n- To reduce the computational cost of LLM inference.\nCorrect Answer: To ground LLM responses in external, factual information.\n2. Which component is primarily responsible for storin",
+    "file_type": "pdf"
+  },
+  {
+    "path": "C:\\Users\\vinilm\\PycharmProjects\\TestOllama\\test_docs\\RAG.pdf",
+    "chunk_index": 18,
+    "text": "ctual information.\n- To reduce the computational cost of LLM inference.\nCorrect Answer: To ground LLM responses in external, factual information.\n2. Which component is primarily responsible for storing and retrieving numerical representations of text in a\nRAG system?\n- The Large Language Model (LLM)\n- The standard relational database\n- The vector database\n- The user interface\nCorrect Answer: The vector database\n3. What problem does RAG primarily help to mitigate in traditional Large Language Mod",
+    "file_type": "pdf"
+  },
+  {
+    "path": "C:\\Users\\vinilm\\PycharmProjects\\TestOllama\\test_docs\\RAG.pdf",
+    "chunk_index": 19,
+    "text": "- The standard relational database\n- The vector database\n- The user interface\nCorrect Answer: The vector database\n3. What problem does RAG primarily help to mitigate in traditional Large Language Models?\n- Difficulty with complex mathematical calculations.\n- Their inability to understand human emotions.\n- The tendency to 'hallucinate' or generate incorrect facts.\n- Their slow response times.\nCorrect Answer: The tendency to 'hallucinate' or generate incorrect facts.\n4. In the RAG workflow, what",
+    "file_type": "pdf"
+  },
+  {
+    "path": "C:\\Users\\vinilm\\PycharmProjects\\TestOllama\\test_docs\\RAG.pdf",
+    "chunk_index": 20,
+    "text": "ions.\n- The tendency to 'hallucinate' or generate incorrect facts.\n- Their slow response times.\nCorrect Answer: The tendency to 'hallucinate' or generate incorrect facts.\n4. In the RAG workflow, what happens during the 'Retrieval Phase'?\n- The LLM generates the final answer.\n- The user's query is converted into an image.\n- Relevant information chunks are identified from a knowledge base.\n- The entire knowledge base is indexed for the first time.\nCorrect Answer: Relevant information chunks are id",
+    "file_type": "pdf"
+  },
+  {
+    "path": "C:\\Users\\vinilm\\PycharmProjects\\TestOllama\\test_docs\\RAG.pdf",
+    "chunk_index": 21,
+    "text": "nverted into an image.\n- Relevant information chunks are identified from a knowledge base.\n- The entire knowledge base is indexed for the first time.\nCorrect Answer: Relevant information chunks are identified from a knowledge base.\n5. What are 'embeddings' in the context of RAG?\n- Short summaries of documents.\n- The original text documents themselves.\n- Numerical representations of text that capture semantic meaning.\n- A type of database table.\nCorrect Answer: Numerical representations of text t",
+    "file_type": "pdf"
+  },
+  {
+    "path": "C:\\Users\\vinilm\\PycharmProjects\\TestOllama\\test_docs\\RAG.pdf",
+    "chunk_index": 22,
+    "text": "documents.\n- The original text documents themselves.\n- Numerical representations of text that capture semantic meaning.\n- A type of database table.\nCorrect Answer: Numerical representations of text that capture semantic meaning.\n6. Which of the following is a key advantage of using RAG?\n- It eliminates the need for any language model.\n- It makes LLMs inherently less biased.\n- It allows LLMs to access and incorporate up-to-date information.\n- It significantly reduces the training time for founda",
+    "file_type": "pdf"
+  },
+  {
+    "path": "C:\\Users\\vinilm\\PycharmProjects\\TestOllama\\test_docs\\RAG.pdf",
+    "chunk_index": 23,
+    "text": "ates the need for any language model.\n- It makes LLMs inherently less biased.\n- It allows LLMs to access and incorporate up-to-date information.\n- It significantly reduces the training time for foundational LLMs.\nCorrect Answer: It allows LLMs to access and incorporate up-to-date information.\n7. A challenge in implementing RAG systems is:\n- The inability to use any LLM with RAG.\n- The difficulty in providing too much context to the LLM.\n- Ensuring the quality and relevance of the retrieved infor",
+    "file_type": "pdf"
+  },
+  {
+    "path": "C:\\Users\\vinilm\\PycharmProjects\\TestOllama\\test_docs\\RAG.pdf",
+    "chunk_index": 24,
+    "text": "hallenge in implementing RAG systems is:\n- The inability to use any LLM with RAG.\n- The difficulty in providing too much context to the LLM.\n- Ensuring the quality and relevance of the retrieved information.\n- The high cost of generating an LLM response.\nCorrect Answer: Ensuring the quality and relevance of the retrieved information.\nMind Map\n- Retrieval-Augmented Generation (RAG)\n- Core Concept\n- Definition\n- Combines Information Retrieval with LLM Generation\n- Purpose\n- Ground LLM Responses in",
+    "file_type": "pdf"
+  },
+  {
+    "path": "C:\\Users\\vinilm\\PycharmProjects\\TestOllama\\test_docs\\RAG.pdf",
+    "chunk_index": 25,
+    "text": "vance of the retrieved information.\nMind Map\n- Retrieval-Augmented Generation (RAG)\n- Core Concept\n- Definition\n- Combines Information Retrieval with LLM Generation\n- Purpose\n- Ground LLM Responses in External Data\n- Reduce Hallucinations\n- Provide Up-to-Date Information\n- Addresses LLM Limitations\n- Static Training Data\n- Lack of Factual Grounding\n- Inability to Access Proprietary Data\n- Components\n- Retrieval System\n- Knowledge Base (Corpus)\n- Documents\n- Databases\n- Web Content\n- Chunking Str",
+    "file_type": "pdf"
+  },
+  {
+    "path": "C:\\Users\\vinilm\\PycharmProjects\\TestOllama\\test_docs\\RAG.pdf",
+    "chunk_index": 26,
+    "text": "- Static Training Data\n- Lack of Factual Grounding\n- Inability to Access Proprietary Data\n- Components\n- Retrieval System\n- Knowledge Base (Corpus)\n- Documents\n- Databases\n- Web Content\n- Chunking Strategy\n- Text Splitting\n- Metadata\n- Embedding Model\n- Converts Text to Vectors\n- Vector Database\n- Stores Embeddings\n- Facilitates Similarity Search\n- Language Model (LLM)\n- Receives Augmented Prompt\n- Generates Response\n- Context Window Management\n- Process Flow\n- User Query\n- Input\n- Query Embeddi",
+    "file_type": "pdf"
+  },
+  {
+    "path": "C:\\Users\\vinilm\\PycharmProjects\\TestOllama\\test_docs\\RAG.pdf",
+    "chunk_index": 27,
+    "text": "tores Embeddings\n- Facilitates Similarity Search\n- Language Model (LLM)\n- Receives Augmented Prompt\n- Generates Response\n- Context Window Management\n- Process Flow\n- User Query\n- Input\n- Query Embedding\n- Vector Representation\n- Retrieve Relevant Chunks\n- Similarity Search in Vector DB\n- Augment Prompt\n- Query + Retrieved Context\n- Generate Response\n- LLM Synthesizes Answer\n- Advantages\n- Reduced Hallucinations\n- Up-to-Date Information\n- Domain Specificity\n- Explainability/Traceability\n- Cost-Ef",
+    "file_type": "pdf"
+  },
+  {
+    "path": "C:\\Users\\vinilm\\PycharmProjects\\TestOllama\\test_docs\\RAG.pdf",
+    "chunk_index": 28,
+    "text": "mpt\n- Query + Retrieved Context\n- Generate Response\n- LLM Synthesizes Answer\n- Advantages\n- Reduced Hallucinations\n- Up-to-Date Information\n- Domain Specificity\n- Explainability/Traceability\n- Cost-Effective (vs. Fine-tuning)\n- Easy Knowledge Base Updates\n- Challenges\n- Quality of Retrieval\n- Latency & Performance\n- Knowledge Base Management\n- Indexing Costs\n- Data Freshness\n- Context Window Limits\n- Security & Privacy of Data\n- Use Cases\n- Enterprise Q&A Systems\n- Customer Support Chatbots\n- Pe",
+    "file_type": "pdf"
+  },
+  {
+    "path": "C:\\Users\\vinilm\\PycharmProjects\\TestOllama\\test_docs\\RAG.pdf",
+    "chunk_index": 29,
+    "text": "y & Performance\n- Knowledge Base Management\n- Indexing Costs\n- Data Freshness\n- Context Window Limits\n- Security & Privacy of Data\n- Use Cases\n- Enterprise Q&A Systems\n- Customer Support Chatbots\n- Personalized Content Generation\n- Research & Information Retrieval",
+    "file_type": "pdf"
+  },
+  {
+    "path": "C:\\Users\\vinilm\\PycharmProjects\\TestOllama\\test_docs\\error_log.log",
+    "chunk_index": 0,
+    "text": "2024-01-15 10:23:45 ERROR [database.py:156] Connection timeout to database host\n2024-01-15 10:23:46 INFO [database.py:158] Retrying connection (attempt 1/3)\n2024-01-15 10:23:47 INFO [database.py:162] Connection established successfully\n2024-01-15 11:45:12 WARNING [api.py:89] Rate limit exceeded for user_id: 12345\n2024-01-15 11:45:12 INFO [api.py:91] Returning 429 Too Many Requests\n2024-01-15 13:22:33 ERROR [embedding.py:78] Failed to generate embedding: Model not found\n2024-01-15 13:22:33 INFO [embedding.py:80] Falling back to default model\n2024-01-15 14:01:22 ERROR [file_processor.py:45] Unsupported file format: .xyz\n2024-01-15 14:01:22 WARNING [file_processor.py:47] Skipping file: document.xyz\n2024-01-15 15:30:00 INFO [search.py:120] Search query: \"machine learning algorithms\"\n2024-01-15 15:30:01 INFO [search.py:125] Found 47 matching documents\n2024-01-15 16:45:30 ERROR [auth.py:67] Invalid authentication token\n2024-01-15 16:45:30 INFO [auth.py:69] Returning 401 Unauthorized",
+    "file_type": "log",
+    "start_line": 0,
+    "end_line": 13,
+    "log_levels": [
+      "WARNING",
+      "ERROR",
+      "INFO"
+    ],
+    "line_count": 13
+  }
+]
