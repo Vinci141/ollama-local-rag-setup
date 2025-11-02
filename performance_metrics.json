@@ -1,0 +1,16 @@
+{
+  "indexing": {
+    "start_time": "2025-11-02T01:27:33.809529",
+    "end_time": "2025-11-02T01:30:14.968930",
+    "duration_seconds": 161.16,
+    "files_processed": 12,
+    "chunks_created": 199,
+    "embeddings_generated": 199,
+    "bytes_processed": 616248,
+    "index_size_bytes": 815149,
+    "avg_cpu_percent": 2.3,
+    "peak_memory_mb": 78.0,
+    "chunks_per_second": 1.23
+  },
+  "queries": []
+}
