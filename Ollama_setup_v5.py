@@ -42,12 +42,12 @@ CHUNK_OVERLAP = 200
 LOG_LINES_PER_CHUNK = 50
 EMBED_MODEL = "mxbai-embed-large"
 TEXT_MODEL = "gemma3"
-INDEX_PATH = "faiss_index.bin"
+INDEX_PATH = "index/faiss_index.bin" # changed directory in V5
 METADATA_PATH = "metadata.json"
 PERFORMANCE_LOG = "performance_metrics.json"
 BATCH_SIZE = 16
 MAX_FILE_SIZE_MB = 500
-temperature_used=0.2
+temperature_used=0.8
 
 def count_tokens(text: str, model_name='gemma3') -> int:
     try:
