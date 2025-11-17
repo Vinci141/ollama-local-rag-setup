@@ -1,0 +1,12 @@
+# Core libraries your code imports
+faiss-cpu
+numpy
+psutil
+tiktoken
+torch          # choose CPU or CUDA wheel — see notes below
+bm25s
+PyStemmer      # provides `from Stemmer import Stemmer`
+sentence-transformers
+transformers
+ollama
+PyMuPDF        # provides `import fitz`
