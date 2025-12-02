@@ -1,0 +1,163 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2867
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 ArialMT;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;\red193\green193\blue193;}
+{\*\expandedcolortbl;;\cssrgb\c0\c0\c0;\cssrgb\c80000\c80000\c80000;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww29200\viewh17740\viewkind0
+\deftab720
+
+\itap1\trowd \taflags5 \trgaph108\trleft-108 \trbrdrt\brdrnil \trbrdrl\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clshdrawnil \clwWidth4580\clftsWidth3 \clbrdrt\brdrs\brdrw20\brdrcf2 \clbrdrl\brdrs\brdrw20\brdrcf2 \clbrdrb\brdrs\brdrw20\brdrcf2 \clbrdrr\brdrs\brdrw20\brdrcf2 \clpadt40 \clpadl60 \clpadb40 \clpadr60 \gaph\cellx2880
+\clvertalc \clshdrawnil \clwWidth6200\clftsWidth3 \clbrdrt\brdrs\brdrw20\brdrcf2 \clbrdrl\brdrs\brdrw20\brdrcf3 \clbrdrb\brdrs\brdrw20\brdrcf2 \clbrdrr\brdrs\brdrw20\brdrcf2 \clpadt40 \clpadl60 \clpadb40 \clpadr60 \gaph\cellx5760
+\clvertalc \clshdrawnil \clwWidth5220\clftsWidth3 \clbrdrt\brdrs\brdrw20\brdrcf2 \clbrdrl\brdrs\brdrw20\brdrcf3 \clbrdrb\brdrs\brdrw20\brdrcf2 \clbrdrr\brdrs\brdrw20\brdrcf2 \clpadt40 \clpadl60 \clpadb40 \clpadr60 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+
+\f0\fs26\fsmilli13333 \cf0 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Function Name\cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 Description (Line 1)\cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 Description (Line 2)\cell \row
+
+\itap1\trowd \taflags5 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clshdrawnil \clwWidth4580\clftsWidth3 \clbrdrt\brdrs\brdrw20\brdrcf3 \clbrdrl\brdrs\brdrw20\brdrcf2 \clbrdrb\brdrs\brdrw20\brdrcf2 \clbrdrr\brdrs\brdrw20\brdrcf2 \clpadt40 \clpadl60 \clpadb40 \clpadr60 \gaph\cellx2880
+\clvertalc \clshdrawnil \clwWidth6200\clftsWidth3 \clbrdrt\brdrs\brdrw20\brdrcf3 \clbrdrl\brdrs\brdrw20\brdrcf3 \clbrdrb\brdrs\brdrw20\brdrcf2 \clbrdrr\brdrs\brdrw20\brdrcf2 \clpadt40 \clpadl60 \clpadb40 \clpadr60 \gaph\cellx5760
+\clvertalc \clshdrawnil \clwWidth5220\clftsWidth3 \clbrdrt\brdrs\brdrw20\brdrcf3 \clbrdrl\brdrs\brdrw20\brdrcf3 \clbrdrb\brdrs\brdrw20\brdrcf2 \clbrdrr\brdrs\brdrw20\brdrcf2 \clpadt40 \clpadl60 \clpadb40 \clpadr60 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 count_tokens\cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 Calculates the number of tokens in a given text using the tiktoken library, optimized with a cache.\cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 Ensures that the prompt generation adheres to the maximum token limits imposed by the LLM.\cell \row
+
+\itap1\trowd \taflags5 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clshdrawnil \clwWidth4580\clftsWidth3 \clbrdrt\brdrs\brdrw20\brdrcf3 \clbrdrl\brdrs\brdrw20\brdrcf2 \clbrdrb\brdrs\brdrw20\brdrcf2 \clbrdrr\brdrs\brdrw20\brdrcf2 \clpadt40 \clpadl60 \clpadb40 \clpadr60 \gaph\cellx2880
+\clvertalc \clshdrawnil \clwWidth6200\clftsWidth3 \clbrdrt\brdrs\brdrw20\brdrcf3 \clbrdrl\brdrs\brdrw20\brdrcf3 \clbrdrb\brdrs\brdrw20\brdrcf2 \clbrdrr\brdrs\brdrw20\brdrcf2 \clpadt40 \clpadl60 \clpadb40 \clpadr60 \gaph\cellx5760
+\clvertalc \clshdrawnil \clwWidth5220\clftsWidth3 \clbrdrt\brdrs\brdrw20\brdrcf3 \clbrdrl\brdrs\brdrw20\brdrcf3 \clbrdrb\brdrs\brdrw20\brdrcf2 \clbrdrr\brdrs\brdrw20\brdrcf2 \clpadt40 \clpadl60 \clpadb40 \clpadr60 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 build_prompt_within_token_limit\cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 Constructs the final prompt for the LLM by combining the question and context chunks, respecting the MAX_TOKENS limit.\cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 Iteratively adds context chunks until the total token count approaches the limit, preventing truncation errors in the LLM.\cell \row
+
+\itap1\trowd \taflags5 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clshdrawnil \clwWidth4580\clftsWidth3 \clbrdrt\brdrs\brdrw20\brdrcf3 \clbrdrl\brdrs\brdrw20\brdrcf2 \clbrdrb\brdrs\brdrw20\brdrcf2 \clbrdrr\brdrs\brdrw20\brdrcf2 \clpadt40 \clpadl60 \clpadb40 \clpadr60 \gaph\cellx2880
+\clvertalc \clshdrawnil \clwWidth6200\clftsWidth3 \clbrdrt\brdrs\brdrw20\brdrcf3 \clbrdrl\brdrs\brdrw20\brdrcf3 \clbrdrb\brdrs\brdrw20\brdrcf2 \clbrdrr\brdrs\brdrw20\brdrcf2 \clpadt40 \clpadl60 \clpadb40 \clpadr60 \gaph\cellx5760
+\clvertalc \clshdrawnil \clwWidth5220\clftsWidth3 \clbrdrt\brdrs\brdrw20\brdrcf3 \clbrdrl\brdrs\brdrw20\brdrcf3 \clbrdrb\brdrs\brdrw20\brdrcf2 \clbrdrr\brdrs\brdrw20\brdrcf2 \clpadt40 \clpadl60 \clpadb40 \clpadr60 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 parse_log_line\cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 Attempts to parse a single log line using various regular expressions to extract structured information.\cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 Returns a dictionary containing the raw line, a parsed status, and extracted groups if a pattern matches.\cell \row
+
+\itap1\trowd \taflags5 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clshdrawnil \clwWidth4580\clftsWidth3 \clbrdrt\brdrs\brdrw20\brdrcf3 \clbrdrl\brdrs\brdrw20\brdrcf2 \clbrdrb\brdrs\brdrw20\brdrcf2 \clbrdrr\brdrs\brdrw20\brdrcf2 \clpadt40 \clpadl60 \clpadb40 \clpadr60 \gaph\cellx2880
+\clvertalc \clshdrawnil \clwWidth6200\clftsWidth3 \clbrdrt\brdrs\brdrw20\brdrcf3 \clbrdrl\brdrs\brdrw20\brdrcf3 \clbrdrb\brdrs\brdrw20\brdrcf2 \clbrdrr\brdrs\brdrw20\brdrcf2 \clpadt40 \clpadl60 \clpadb40 \clpadr60 \gaph\cellx5760
+\clvertalc \clshdrawnil \clwWidth5220\clftsWidth3 \clbrdrt\brdrs\brdrw20\brdrcf3 \clbrdrl\brdrs\brdrw20\brdrcf3 \clbrdrb\brdrs\brdrw20\brdrcf2 \clbrdrr\brdrs\brdrw20\brdrcf2 \clpadt40 \clpadl60 \clpadb40 \clpadr60 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 chunk_log_file\cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 Splits a log file into chunks based on a fixed number of lines, automatically extracting metadata like line numbers and log levels.\cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 Creates chunks with associated metadata that can be indexed and later used to provide context for log analysis.\cell \row
+
+\itap1\trowd \taflags5 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clshdrawnil \clwWidth4580\clftsWidth3 \clbrdrt\brdrs\brdrw20\brdrcf3 \clbrdrl\brdrs\brdrw20\brdrcf2 \clbrdrb\brdrs\brdrw20\brdrcf2 \clbrdrr\brdrs\brdrw20\brdrcf2 \clpadt40 \clpadl60 \clpadb40 \clpadr60 \gaph\cellx2880
+\clvertalc \clshdrawnil \clwWidth6200\clftsWidth3 \clbrdrt\brdrs\brdrw20\brdrcf3 \clbrdrl\brdrs\brdrw20\brdrcf3 \clbrdrb\brdrs\brdrw20\brdrcf2 \clbrdrr\brdrs\brdrw20\brdrcf2 \clpadt40 \clpadl60 \clpadb40 \clpadr60 \gaph\cellx5760
+\clvertalc \clshdrawnil \clwWidth5220\clftsWidth3 \clbrdrt\brdrs\brdrw20\brdrcf3 \clbrdrl\brdrs\brdrw20\brdrcf3 \clbrdrb\brdrs\brdrw20\brdrcf2 \clbrdrr\brdrs\brdrw20\brdrcf2 \clpadt40 \clpadl60 \clpadb40 \clpadr60 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 validate_extracted_text\cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 Performs basic checks on extracted text (e.g., minimum length, ratio of special characters) to ensure quality.\cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 Helps the system skip files where text extraction failed or resulted in mostly garbled, unreadable content.\cell \row
+
+\itap1\trowd \taflags5 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clshdrawnil \clwWidth4580\clftsWidth3 \clbrdrt\brdrs\brdrw20\brdrcf3 \clbrdrl\brdrs\brdrw20\brdrcf2 \clbrdrb\brdrs\brdrw20\brdrcf2 \clbrdrr\brdrs\brdrw20\brdrcf2 \clpadt40 \clpadl60 \clpadb40 \clpadr60 \gaph\cellx2880
+\clvertalc \clshdrawnil \clwWidth6200\clftsWidth3 \clbrdrt\brdrs\brdrw20\brdrcf3 \clbrdrl\brdrs\brdrw20\brdrcf3 \clbrdrb\brdrs\brdrw20\brdrcf2 \clbrdrr\brdrs\brdrw20\brdrcf2 \clpadt40 \clpadl60 \clpadb40 \clpadr60 \gaph\cellx5760
+\clvertalc \clshdrawnil \clwWidth5220\clftsWidth3 \clbrdrt\brdrs\brdrw20\brdrcf3 \clbrdrl\brdrs\brdrw20\brdrcf3 \clbrdrb\brdrs\brdrw20\brdrcf2 \clbrdrr\brdrs\brdrw20\brdrcf2 \clpadt40 \clpadl60 \clpadb40 \clpadr60 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 extract_pdf_with_layout\cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 Extracts text from a single PDF page using PyMuPDF's "blocks" mode, which helps preserve document layout structure.\cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 Used as a strategy to get better quality text when standard text extraction fails or scrambles the reading order.\cell \row
+
+\itap1\trowd \taflags5 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clshdrawnil \clwWidth4580\clftsWidth3 \clbrdrt\brdrs\brdrw20\brdrcf3 \clbrdrl\brdrs\brdrw20\brdrcf2 \clbrdrb\brdrs\brdrw20\brdrcf2 \clbrdrr\brdrs\brdrw20\brdrcf2 \clpadt40 \clpadl60 \clpadb40 \clpadr60 \gaph\cellx2880
+\clvertalc \clshdrawnil \clwWidth6200\clftsWidth3 \clbrdrt\brdrs\brdrw20\brdrcf3 \clbrdrl\brdrs\brdrw20\brdrcf3 \clbrdrb\brdrs\brdrw20\brdrcf2 \clbrdrr\brdrs\brdrw20\brdrcf2 \clpadt40 \clpadl60 \clpadb40 \clpadr60 \gaph\cellx5760
+\clvertalc \clshdrawnil \clwWidth5220\clftsWidth3 \clbrdrt\brdrs\brdrw20\brdrcf3 \clbrdrl\brdrs\brdrw20\brdrcf3 \clbrdrb\brdrs\brdrw20\brdrcf2 \clbrdrr\brdrs\brdrw20\brdrcf2 \clpadt40 \clpadl60 \clpadb40 \clpadr60 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 extract_text_from_pdf_robust\cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 Implements a robust, multi-strategy approach to extract text from PDF files, including error handling and layout attempts.\cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 Tries standard and block-based extraction, and checks if the PDF is likely scanned (low text count) to warn about potential OCR necessity.\cell \row
+
+\itap1\trowd \taflags5 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clshdrawnil \clwWidth4580\clftsWidth3 \clbrdrt\brdrs\brdrw20\brdrcf3 \clbrdrl\brdrs\brdrw20\brdrcf2 \clbrdrb\brdrs\brdrw20\brdrcf2 \clbrdrr\brdrs\brdrw20\brdrcf2 \clpadt40 \clpadl60 \clpadb40 \clpadr60 \gaph\cellx2880
+\clvertalc \clshdrawnil \clwWidth6200\clftsWidth3 \clbrdrt\brdrs\brdrw20\brdrcf3 \clbrdrl\brdrs\brdrw20\brdrcf3 \clbrdrb\brdrs\brdrw20\brdrcf2 \clbrdrr\brdrs\brdrw20\brdrcf2 \clpadt40 \clpadl60 \clpadb40 \clpadr60 \gaph\cellx5760
+\clvertalc \clshdrawnil \clwWidth5220\clftsWidth3 \clbrdrt\brdrs\brdrw20\brdrcf3 \clbrdrl\brdrs\brdrw20\brdrcf3 \clbrdrb\brdrs\brdrw20\brdrcf2 \clbrdrr\brdrs\brdrw20\brdrcf2 \clpadt40 \clpadl60 \clpadb40 \clpadr60 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 extract_text_from_file\cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 A utility function to route the file path to the correct extraction method based on its extension (e.g., .pdf, .docx, .txt).\cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 Supports multiple file types including logs, PDFs, text, and Microsoft Word documents (.docx).\cell \row
+
+\itap1\trowd \taflags5 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clshdrawnil \clwWidth4580\clftsWidth3 \clbrdrt\brdrs\brdrw20\brdrcf3 \clbrdrl\brdrs\brdrw20\brdrcf2 \clbrdrb\brdrs\brdrw20\brdrcf2 \clbrdrr\brdrs\brdrw20\brdrcf2 \clpadt40 \clpadl60 \clpadb40 \clpadr60 \gaph\cellx2880
+\clvertalc \clshdrawnil \clwWidth6200\clftsWidth3 \clbrdrt\brdrs\brdrw20\brdrcf3 \clbrdrl\brdrs\brdrw20\brdrcf3 \clbrdrb\brdrs\brdrw20\brdrcf2 \clbrdrr\brdrs\brdrw20\brdrcf2 \clpadt40 \clpadl60 \clpadb40 \clpadr60 \gaph\cellx5760
+\clvertalc \clshdrawnil \clwWidth5220\clftsWidth3 \clbrdrt\brdrs\brdrw20\brdrcf3 \clbrdrl\brdrs\brdrw20\brdrcf3 \clbrdrb\brdrs\brdrw20\brdrcf2 \clbrdrr\brdrs\brdrw20\brdrcf2 \clpadt40 \clpadl60 \clpadb40 \clpadr60 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 chunk_text\cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 Splits a raw string of text into smaller, overlapping sections (CHUNK_SIZE and CHUNK_OVERLAP).\cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 These chunks are the units of information that are individually embedded and stored in the vector index.\cell \row
+
+\itap1\trowd \taflags5 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clshdrawnil \clwWidth4580\clftsWidth3 \clbrdrt\brdrs\brdrw20\brdrcf3 \clbrdrl\brdrs\brdrw20\brdrcf2 \clbrdrb\brdrs\brdrw20\brdrcf2 \clbrdrr\brdrs\brdrw20\brdrcf2 \clpadt40 \clpadl60 \clpadb40 \clpadr60 \gaph\cellx2880
+\clvertalc \clshdrawnil \clwWidth6200\clftsWidth3 \clbrdrt\brdrs\brdrw20\brdrcf3 \clbrdrl\brdrs\brdrw20\brdrcf3 \clbrdrb\brdrs\brdrw20\brdrcf2 \clbrdrr\brdrs\brdrw20\brdrcf2 \clpadt40 \clpadl60 \clpadb40 \clpadr60 \gaph\cellx5760
+\clvertalc \clshdrawnil \clwWidth5220\clftsWidth3 \clbrdrt\brdrs\brdrw20\brdrcf3 \clbrdrl\brdrs\brdrw20\brdrcf3 \clbrdrb\brdrs\brdrw20\brdrcf2 \clbrdrr\brdrs\brdrw20\brdrcf2 \clpadt40 \clpadl60 \clpadb40 \clpadr60 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 create_optimized_faiss_index\cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 Creates a FAISS vector index optimized for the size of the dataset.\cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 Chooses between the simple IndexFlatL2 (small datasets) and the clustered IndexIVFFlat (large datasets) for better search speed.\cell \row
+
+\itap1\trowd \taflags5 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clshdrawnil \clwWidth4580\clftsWidth3 \clbrdrt\brdrs\brdrw20\brdrcf3 \clbrdrl\brdrs\brdrw20\brdrcf2 \clbrdrb\brdrs\brdrw20\brdrcf2 \clbrdrr\brdrs\brdrw20\brdrcf2 \clpadt40 \clpadl60 \clpadb40 \clpadr60 \gaph\cellx2880
+\clvertalc \clshdrawnil \clwWidth6200\clftsWidth3 \clbrdrt\brdrs\brdrw20\brdrcf3 \clbrdrl\brdrs\brdrw20\brdrcf3 \clbrdrb\brdrs\brdrw20\brdrcf2 \clbrdrr\brdrs\brdrw20\brdrcf2 \clpadt40 \clpadl60 \clpadb40 \clpadr60 \gaph\cellx5760
+\clvertalc \clshdrawnil \clwWidth5220\clftsWidth3 \clbrdrt\brdrs\brdrw20\brdrcf3 \clbrdrl\brdrs\brdrw20\brdrcf3 \clbrdrb\brdrs\brdrw20\brdrcf2 \clbrdrr\brdrs\brdrw20\brdrcf2 \clpadt40 \clpadl60 \clpadb40 \clpadr60 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 get_chunks_by_file\cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 A helper method within the RAG system to retrieve all stored chunks associated with a specific file path from the metadata.\cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 Supports TOON workflows like _summarize_all_workflow that need the content of a single document.\cell \row
+
+\itap1\trowd \taflags5 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clshdrawnil \clwWidth4580\clftsWidth3 \clbrdrt\brdrs\brdrw20\brdrcf3 \clbrdrl\brdrs\brdrw20\brdrcf2 \clbrdrb\brdrs\brdrw20\brdrcf2 \clbrdrr\brdrs\brdrw20\brdrcf2 \clpadt40 \clpadl60 \clpadb40 \clpadr60 \gaph\cellx2880
+\clvertalc \clshdrawnil \clwWidth6200\clftsWidth3 \clbrdrt\brdrs\brdrw20\brdrcf3 \clbrdrl\brdrs\brdrw20\brdrcf3 \clbrdrb\brdrs\brdrw20\brdrcf2 \clbrdrr\brdrs\brdrw20\brdrcf2 \clpadt40 \clpadl60 \clpadb40 \clpadr60 \gaph\cellx5760
+\clvertalc \clshdrawnil \clwWidth5220\clftsWidth3 \clbrdrt\brdrs\brdrw20\brdrcf3 \clbrdrl\brdrs\brdrw20\brdrcf3 \clbrdrb\brdrs\brdrw20\brdrcf2 \clbrdrr\brdrs\brdrw20\brdrcf2 \clpadt40 \clpadl60 \clpadb40 \clpadr60 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 retrieve_relevant_chunks\cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 A simplified placeholder function for retrieving relevant chunks from a list of documents.\cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 In a full RAG system, this would typically involve a more complex search over the combined corpus, but here it is a placeholder for _cross_file_qa_workflow.\cell \row
+
+\itap1\trowd \taflags5 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrt\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clshdrawnil \clwWidth4580\clftsWidth3 \clbrdrt\brdrs\brdrw20\brdrcf3 \clbrdrl\brdrs\brdrw20\brdrcf2 \clbrdrb\brdrs\brdrw20\brdrcf2 \clbrdrr\brdrs\brdrw20\brdrcf2 \clpadt40 \clpadl60 \clpadb40 \clpadr60 \gaph\cellx2880
+\clvertalc \clshdrawnil \clwWidth6200\clftsWidth3 \clbrdrt\brdrs\brdrw20\brdrcf3 \clbrdrl\brdrs\brdrw20\brdrcf3 \clbrdrb\brdrs\brdrw20\brdrcf2 \clbrdrr\brdrs\brdrw20\brdrcf2 \clpadt40 \clpadl60 \clpadb40 \clpadr60 \gaph\cellx5760
+\clvertalc \clshdrawnil \clwWidth5220\clftsWidth3 \clbrdrt\brdrs\brdrw20\brdrcf3 \clbrdrl\brdrs\brdrw20\brdrcf3 \clbrdrb\brdrs\brdrw20\brdrcf2 \clbrdrr\brdrs\brdrw20\brdrcf2 \clpadt40 \clpadl60 \clpadb40 \clpadr60 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 generate_answer\cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 Generates a final, coherent text answer using the Ollama chat API and the configured LLM (gemma3).\cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 It takes the user's question and a list of context chunks to generate a contextually grounded response.\cell \lastrow\row
+}
