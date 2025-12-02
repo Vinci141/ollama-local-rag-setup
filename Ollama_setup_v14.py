@@ -1,7 +1,9 @@
 #!/usr/bin/env python3
 
 """
-🚀 TOON-Enhanced RAG System - Version 13.0 (Multi-File Orchestration)
+🚀 TOON-Enhanced RAG System - Version 14.0 (Multi-File Orchestration)
+NEW FEATURES (14.0):
+✅ Added support for word files.
 
 NEW FEATURES (13.0):
 ✅ TOON (Task-Oriented Orchestration Network) integration
@@ -28,6 +30,7 @@ Dependencies:
 pip install sentence-transformers torch faiss-cpu numpy pymupdf bm25s PyStemmer psutil tiktoken transformers ollama networkx spacy flask celery redis
 python -m spacy download en_core_web_sm
 """
+import docx
 import glob
 import json
 import os
@@ -101,7 +104,7 @@ DEVICE = 'cuda' if USE_GPU else 'cpu'
 _tokenizer_cache = {}
 
 print(f"\n{'=' * 70}")
-print(f"🚀 TOON-Enhanced RAG System v12.0 - Multi-File Orchestration")
+print(f"🚀 TOON-Enhanced RAG System v14.0 - Multi-File Orchestration")
 print(f"{'=' * 70}")
 print(f"Device: {DEVICE.upper()}")
 print(f"GPU Available: {USE_GPU}")
@@ -972,6 +975,15 @@ def extract_text_from_file(path: str) -> str:
     if ext == ".pdf":
         return extract_text_from_pdf_robust(path)
 
+    # Word files
+    if ext == ".docx":
+        try:
+            doc = docx.Document(path)
+            return "\n".join([para.text for para in doc.paragraphs])
+        except Exception as e:
+            print(f"Warning: Could not read {path}: {e}")
+            return ""
+
     return ""
 
 
@@ -1133,7 +1145,7 @@ class TOONEnabledRAGSystem:
         """Index all documents in a folder with TOON integration."""
         perf_monitor.start_indexing()
 
-        text_extensions = ["*.txt", "*.md", "*.py", "*.json", "*.csv", "*.pdf", "*.log"]
+        text_extensions = ["*.txt", "*.md", "*.py", "*.json", "*.csv", "*.pdf", "*.log","*.docx"]
 
         files = []
         for pattern in text_extensions:

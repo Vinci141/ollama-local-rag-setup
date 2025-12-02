@@ -1,7 +1,14 @@
 #!/usr/bin/env python3
 
 """
-🚀 TOON-Enhanced RAG System - Version 13.0 (Multi-File Orchestration)
+🚀 TOON-Enhanced RAG System - Version 14.0 (Multi-File Orchestration)
+
+
+NEW FEATURES (15.0):
+✅ Models are made offline by downloading them on local machine.
+
+NEW FEATURES (14.0):
+✅ Added support for word files.
 
 NEW FEATURES (13.0):
 ✅ TOON (Task-Oriented Orchestration Network) integration
@@ -28,6 +35,7 @@ Dependencies:
 pip install sentence-transformers torch faiss-cpu numpy pymupdf bm25s PyStemmer psutil tiktoken transformers ollama networkx spacy flask celery redis
 python -m spacy download en_core_web_sm
 """
+import docx
 import glob
 import json
 import os
@@ -36,8 +44,9 @@ import time
 import hashlib
 from datetime import datetime
 from typing import List, Tuple, Dict, Optional, Any
-#from collections import defaultdict
-#from pathlib import Path
+
+# from collections import defaultdict
+# from pathlib import Path
 os.environ["TF_ENABLE_ONEDNN_OPTS"] = "0"  # disable oneDNN optimization
 
 import faiss
@@ -59,13 +68,14 @@ import fitz  # PyMuPDF
 # ============================================================================
 
 # Embedding & LLM Models
-#EMBED_MODEL_NAME = "mixedbread-ai/mxbai-embed-large-v1" # Commented in V13
-EMBED_MODEL_NAME = "sentence-transformers/all-MiniLM-L6-v2"
+# EMBED_MODEL_NAME = "mixedbread-ai/mxbai-embed-large-v1" # Commented in V13
+# EMBED_MODEL_NAME = "sentence-transformers/all-MiniLM-L6-v2"
+EMBED_MODEL_NAME = "local_models/all-MiniLM-L6-v2"  # <--local folder
 TEXT_MODEL = "gemma3"
-RERANKER_MODEL_NAME = "cross-encoder/ms-marco-TinyBERT-L2-v2"
+# RERANKER_MODEL_NAME = "cross-encoder/ms-marco-TinyBERT-L2-v2"
+RERANKER_MODEL_NAME = "local_models/ms-marco-TinyBERT-L2-v2"  # <--local folder
 
-os.environ["TF_CPP_MIN_LOG_LEVEL"] = "0"  # hide INFO logs
-os.environ["TF_ENABLE_ONEDNN_OPTS"] = "0"  # disable oneDNN optimization
+os.environ["TF_CPP_MIN_LOG_LEVEL"] = "2"  # hide INFO & warning logs
 
 # Chunking
 CHUNK_SIZE = 1000  # split input data into chunks of max length 1000 characters.
@@ -74,7 +84,7 @@ LOG_LINES_PER_CHUNK = 50
 
 # Batch Processing
 BATCH_SIZE = 64
-EMBEDDING_BATCH_SIZE = 32 # reduced from 64 in V13
+EMBEDDING_BATCH_SIZE = 32  # reduced from 64 in V13
 
 # Paths
 INDEX_PATH = "index/faiss_index.bin"  # Location of vector index(FAISS index).It store mathematical representation of docs chunks allowing system to do ultra-fast SEMANTIC search.
@@ -101,7 +111,7 @@ DEVICE = 'cuda' if USE_GPU else 'cpu'
 _tokenizer_cache = {}
 
 print(f"\n{'=' * 70}")
-print(f"🚀 TOON-Enhanced RAG System v12.0 - Multi-File Orchestration")
+print(f"🚀 TOON-Enhanced RAG System v15.0 - Multi-File Orchestration")
 print(f"{'=' * 70}")
 print(f"Device: {DEVICE.upper()}")
 print(f"GPU Available: {USE_GPU}")
@@ -362,7 +372,6 @@ class TOONOrchestrator:
             task['status'] = 'failed'
             task['error'] = str(e)
             raise
-
 
     def _execute_workflow(self, task_type: str, params: Dict) -> Any:
         """Execute specific workflow based on task type."""
@@ -972,6 +981,15 @@ def extract_text_from_file(path: str) -> str:
     if ext == ".pdf":
         return extract_text_from_pdf_robust(path)
 
+    # Word files
+    if ext == ".docx":
+        try:
+            doc = docx.Document(path)
+            return "\n".join([para.text for para in doc.paragraphs])
+        except Exception as e:
+            print(f"Warning: Could not read {path}: {e}")
+            return ""
+
     return ""
 
 
@@ -1133,7 +1151,7 @@ class TOONEnabledRAGSystem:
         """Index all documents in a folder with TOON integration."""
         perf_monitor.start_indexing()
 
-        text_extensions = ["*.txt", "*.md", "*.py", "*.json", "*.csv", "*.pdf", "*.log"]
+        text_extensions = ["*.txt", "*.md", "*.py", "*.json", "*.csv", "*.pdf", "*.log", "*.docx"]
 
         files = []
         for pattern in text_extensions:
@@ -1327,7 +1345,7 @@ class TOONEnabledRAGSystem:
             # Check if question is a TOON task
             if question.startswith("TOON:"):
                 question = question[len("TOON:"):]  # remove the prefix safely.
-                #task_parts = question[5:].split(":", 1)  # split on 1st colon to preserve JSON
+                # task_parts = question[5:].split(":", 1)  # split on 1st colon to preserve JSON
                 task_parts = question.split(":", 1)
                 task_type = task_parts[0].strip()
                 print(f"Received TOON task: {task_type}")  # <--- added this line in V13 debugging
