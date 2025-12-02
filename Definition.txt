@@ -1,0 +1,69 @@
+
+Class Name  :  Definition
+AuditLogger  :  Tracks and records all system operations for security and compliance purposes.
+PIIDetector  :  Identifies and optionally redacts Personally Identifiable Information (PII) using the spaCy NLP library.
+KnowledgeGraph  :  Manages structured relationships and dependencies between indexed files and concepts using a networkx graph.
+TOONOrchestrator  :  "The central control plane for multi-file workflows ,implementing the Task-Oriented Orchestration Network."
+EmbeddingManager  :  Loads and manages the Sentence-Transformer model (all-MiniLM-L6-v2) for converting text into numerical vectors (embeddings).
+HybridRetriever  :  Combines semantic search (FAISS) and lexical search (BM25S) with a cross-encoder re-ranker for highly relevant document retrieval.
+TOONEnabledRAGSystem  :  "The main RAG application class that orchestrates the entire process ,including indexing,loading,querying,and integrating TOON."
+ConversationalMemory  :  Stores the history of user inputs and system responses to maintain context during multi-turn conversations.
+PerformanceMonitor  :  Tracks and records key performance metrics for indexing and querying operations.
+
+
+
+Function Name  :  Definition
+log_operation  :  Logs a successful system operation with a timestamp and relevant details.
+log_error  :  Logs a failed system operation or error for audit purposes.
+_save  :  Writes the current list of audit logs to the designated JSON file.
+detect_pii  :  "Detects PII entities (e.g.PERSON ,EMAIL) in a given string of text."
+redact_pii  :  Replaces detected PII entities in a text string with the token [REDACTED].
+add_file_node  :  Registers a file path and its metadata as a node in the Knowledge Graph.
+add_concept_node  :  Adds a conceptual node to the graph and links it to relevant files.
+add_relationship  :  Creates a weighted edge or relationship between two existing file nodes.
+get_related_files  :  Retrieves files connected to a given file node within a specified depth in the graph.
+get_file_concepts  :  Returns a list of concepts associated with a specific file node.
+save  :  Serializes and writes the current graph structure to the Knowledge Graph JSON file.
+load  :  Reads and reconstructs the graph structure from the saved Knowledge Graph JSON file.
+_hash_path  :  Generates a unique short hash ID for a given file path.
+register_task  :  "Creates a task dictionary with a unique ID and status 'pending' ,adding it to the queue."
+execute_task  :  "Retrieves a task from the queue ,updates its status to 'running', executes the workflow ,and saves the result."
+_execute_workflow  :  "Acts as a dispatcher , mapping a task type string to its corresponding private workflow method."
+_summarize_all_workflow  :  Executes the task to generate a summary for every indexed file.
+_cross_file_qa_workflow  :  Executes the task to retrieve information from multiple files to answer a complex question.
+_generate_report_workflow  :  Executes the task to compile a structured report from key points and concepts across files.
+_find_conflicts_workflow  :  Executes the task to compare statements about a specified topic across files to flag potential conflicts.
+_extract_entities_workflow  :  "Executes the task to extract named entities ,including PII ,from all files."
+_extract_key_points  :  Extracts the first sentence of a few text chunks to serve as simplified key points.
+count_tokens  :  Counts the number of tokens in a given text using tiktoken.
+build_prompt_within_token_limit  :  Constructs the final prompt by fitting as many context chunks as possible under the token limit.
+start_indexing  :  Initializes performance monitoring and records the start timestamp for the indexing process.
+sample_resources  :  Records instantaneous CPU and memory usage of the process.
+record_file_processed  :  "Updates performance metrics with the count of processed files ,chunks created ,and bytes processed."
+end_indexing  :  "Calculates total duration ,throughput ,and resource averages,recording final indexing metrics."
+record_query  :  Logs details and performance metrics for a single query operation.
+print_indexing_report  :  Prints a formatted summary of the recorded indexing performance metrics.
+print_query_stats  :  Prints aggregated statistics like average response time and success rate for recorded queries.
+save_to_file  :  Writes the complete performance metrics dictionary to the designated JSON file.
+parse_log_line  :  Attempts to structure a raw log line into a dictionary using regular expressions.
+chunk_log_file  :  "Splits log files into chunks based on a fixed number of lines ,extracting log level metadata."
+validate_extracted_text  :  Checks if extracted text is likely meaningful by verifying length and character ratios.
+extract_pdf_with_layout  :  Extracts text from a PDF page by processing text blocks to better preserve layout order.
+extract_pdf_with_dict  :  Extracts text using PyMuPDF's detailed dictionary mode.
+check_pdf_needs_ocr  :  Estimates if a PDF is image-based by sampling pages with very little extractable text.
+repair_and_clean_pdf  :  Attempts to fix a corrupt PDF by saving a cleaned version to bytes.
+extract_text_from_pdf_robust  :  "Applies multiple strategies to reliably extract text from PDFs ,handling errors and layout issues."
+extract_text_from_file  :  Selects and executes the correct extraction method based on the input file's extension.
+chunk_text  :  Splits a raw string of text into overlapping segments of a defined size.
+embed_texts  :  Generates numerical embeddings for a list of text strings in batches using the Sentence Transformer model.
+query  :  "Executes the hybrid search, combining FAISS,  BM25S , and re-ranking ,to retrieve relevant text chunks."
+_rerank_with_cross_encoder  :  Takes search candidates and rescores them using a TinyBERT cross-encoder for higher relevance accuracy.
+index_folder  :  "The main routine for processing all files in a folder , extracting text ,creating embeddings ,and building the index."
+create_optimized_faiss_index  :  "Initializes and trains the FAISS index ,choosing an optimal type based on the number of vectors."
+load_index  :  "Reads the existing FAISS index ,metadata ,and initializes the retriever and orchestrator."
+get_chunks_by_file  :  Retrieves all text chunks stored in the metadata that belong to a specific file path.
+retrieve_relevant_chunks  :  A simplified method to retrieve the top-k chunks from a list of chunks (used in TOON workflows).
+generate_answer  :  Uses the LLM to generate a final answer based on a question and retrieved context chunks.
+add_turn  :  Appends a user input/system response pair to the memory list and maintains the maximum turn limit.
+get_context  :  Formats the conversational memory into a single string suitable for passing to the LLM as context.
+main  :  "The entry point for the command-line application ,parsing arguments and coordinating the RAG system's actions."
